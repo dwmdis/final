@@ -13,22 +13,12 @@
     <link type="text/css" href="assets/css/main.css" rel="stylesheet">
     <!-- <link rel="stylesheet" media="screen and (min-device-width: 800px)" href="assets/css/bleh.css" />
     <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='assets/css/blah.css' /> -->
-    <script>
-        /* Set the width of the side navigation to 250px */
-        function openNav() {
-            document.getElementById("myMobilenav").style.width = "250px";
-        }
-
-        /* Set the width of the side navigation to 0 */
-        function closeNav() {
-            document.getElementById("myMobilenav").style.width = "0";
-        }
-    </script>
+    <script src="assets/scripts/mobileNav.js"></script>
 </head>
 <body>
     <nav id="myMobilenav" class="mobilenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">Home</a>
+        <a href="http://serenity.ist.rit.edu/~iste240t04/240/final/index.php">Home</a>
         <a href="#">Intermediate</a>
         <a href="#">Advanced</a>
         <a href="#">About</a>
