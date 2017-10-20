@@ -9,3 +9,10 @@ nav ul li{
     list-style: none;
     display: inline;
 }
+
+#big-logo{
+    display: block;
+}
+#small-logo{
+    display: none;
+}
