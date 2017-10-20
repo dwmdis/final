@@ -12,14 +12,11 @@
         <!-- <img src="http://lorempixel.com/400/200/" alt="logo"/> -->
     </header>
     <nav id="myMobilenav" class="mobilenav">
-        <ul>
-            <li><a id="close-nav" href="#" class="closebtn" onclick="closeNav()">&times;</a></li>
-            <li><a href="http://serenity.ist.rit.edu/~iste240t04/240/final/index.php">Home</a>
-            <li><a href="#">Intermediate</a></li>
-            <li><a href="#">Advanced</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
-            
+            <a id="close-nav" href="#" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="http://serenity.ist.rit.edu/~iste240t04/240/final/index.php">Home</a>
+            <a href="#">Intermediate</a>
+            <a href="#">Advanced</a>
+            <a href="#">About</a>
     </nav>
   <main>
     <div>HTML Boilerplate test
