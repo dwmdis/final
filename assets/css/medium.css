@@ -1,9 +1,15 @@
+header{
+    
+}
 /* MOBILE NAVIGATION MENU */
 #click-here{
     display: inline;
 }
 #close-nav{
-    display: inline-block;
+    display: inline;
+}
+nav ul li{
+    list-style: none;
 }
 .mobilenav {
     height: 100%;

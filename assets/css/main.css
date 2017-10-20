@@ -5,3 +5,7 @@
 #close-nav{
     display: none;
 }
+nav ul li{
+    list-style: none;
+    display: inline;
+}
