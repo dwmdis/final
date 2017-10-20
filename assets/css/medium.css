@@ -1,0 +1,43 @@
+/* MOBILE NAVIGATION MENU */
+#click-here{
+    display: inline;
+}
+#close-nav{
+    display: inline-block;
+}
+.mobilenav {
+    height: 100%;
+    width: 0;/* changes with js */
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+/* nav menu links */
+.mobilenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.mobilenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button*/
+.mobilenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* END OF SIDE NAVIGATION MENU*/
