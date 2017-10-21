@@ -20,14 +20,18 @@
     </header>
     <nav id="myMobilenav" class="mobilenav">
             <a id="close-nav" href="#" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="http://serenity.ist.rit.edu/~iste240t04/240/final/index.php">Home</a>
-            <a href="#">Intermediate</a>
-            <a href="#">Advanced</a>
-            <a href="#">About</a>
+            <a <?php if($page == 'home'){ 
+                echo 'class="active"';}?> href="http://serenity.ist.rit.edu/~iste240t04/240/final/index.php">Home</a>
+            <a <?php if($page == 'intermediate'){ 
+                echo 'class="active"';}?> href="#">Intermediate</a>
+            <a <?php if($page == 'advanced'){ 
+                echo 'class="active"';}?> href="#">Advanced</a>
+            <a <?php if($page == 'about'){ 
+                echo 'class="active"';}?> href="#">About</a>
     </nav>
   <main>
     <div>HTML Boilerplate test
-      "javascript:void(0)"
+        <p>page = "<?php echo $page ?>"</p>
       </div>
   </main>
 </body>

@@ -16,3 +16,6 @@ nav ul li{
 #small-logo{
     display: none;
 }
+.active{
+    background-color: black;
+}
