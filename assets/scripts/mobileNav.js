@@ -30,7 +30,7 @@ function openSubNav() {
     }
     elems = document.getElementsByClassName(navSection);
     for (var i = 0; i < elems.length; i++) {
-        elems[i].style.display = "inline";
+        elems[i].style.display = "block";
     }
     window.console.log("openSubNav triggered, and myId is: ", myId);
 }

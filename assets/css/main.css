@@ -1,4 +1,4 @@
-/* HIDE MOBILE NAV ELEMENTS */
+/* FIXING MOBILE NAV ELEMENTS for WEB VIEW */
 #click-here{
     display: none;
 }
@@ -18,4 +18,10 @@ nav ul li{
 }
 .active{
     background-color: black;
+}
+.subnav1, .subnav2, .subnav3{
+    display: none;
+}
+.float-container{
+    float: right;
 }
