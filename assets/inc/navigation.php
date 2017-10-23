@@ -14,7 +14,7 @@
             <div class="sub-navlist">    
                 <a onclick="closeSubNav(); getId(this); openSubNav()" id="home-section" <?php if($page == 'home'){  echo 'class="active"';}?> href="#">Home</a>
                 <div class="float-container">    
-                    <a class="subnav1" href="#">Home Sub1</a>
+                    <a class="subnav1" href="index.php">Home Sub1</a>
                     <a class="subnav1" href="#">Home Sub2</a>
                     <a class="subnav1" href="#">Home Sub3</a>
                 </div>
@@ -32,7 +32,7 @@
                 <a onclick="closeSubNav(); getId(this); openSubNav()" id="advanced-section" <?php if($page == 'advanced'){ 
                 echo 'class="active"';}?> href="#">Advanced</a>
                 <div class="float-container">
-                    <a class="subnav3" href="#">Advanced Sub1</a>
+                    <a class="subnav3" href="advanced.php">Advanced Sub1</a>
                     <a class="subnav3" href="#">Advanced Sub2</a>
                     <a class="subnav3" href="#">Advanced Sub3</a>
                 </div>
