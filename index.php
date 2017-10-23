@@ -9,7 +9,7 @@
 <body>
 <?php include "assets/inc/navigation.php" ?>
   <main>
-    <div>HTML Boilerplate test
+    <div>Home page
         <p>page = "<?php echo $page ?>"</p>
       </div>
   </main>
