@@ -10,8 +10,8 @@
     <span id="click-here" onclick="openNav()">Click Here!</span>
     <header>
         <image id="logos">
-        <img id="big-logo" src="http://lorempixel.com/400/200/" alt="big-logo"/>
-        <img id="small-logo" src="http://lorempixel.com/100/50/" alt="small-logo" />
+        <!-- <img id="big-logo" src="http://lorempixel.com/400/200/" alt="big-logo"/>
+        <img id="small-logo" src="http://lorempixel.com/100/50/" alt="small-logo" /> -->
         </image>
         <form id="search-box">
             <input type="search" placeholder="Search this site..." />
@@ -19,13 +19,27 @@
         </form>
     </header>
     <nav id="myMobilenav" class="mobilenav">
-            <a id="close-nav" href="#" class="closebtn" onclick="closeNav()">&times;</a>
-            <a <?php if($page == 'home'){ 
-                echo 'class="active"';}?> href="http://serenity.ist.rit.edu/~iste240t04/240/final/index.php">Home</a>
-            <a <?php if($page == 'intermediate'){ 
-                echo 'class="active"';}?> href="#">Intermediate</a>
-            <a <?php if($page == 'advanced'){ 
+            <a id="close-nav" href="#" class="closebtn" onclick="closeNav(); closeSubNav()">&times;</a>
+            <div class="sub-navlist">    
+                <a onclick="getId(this); openSubNav()" id="home-section" <?php if($page == 'home'){  echo 'class="active"';}?> href="#">Home</a>
+                    <a class="subnav1" style="display:none;" href="#">Home Sub1</a>
+                    <a class="subnav1" style="display:none;" href="#">Home Sub2</a>
+                    <a class="subnav1" style="display:none;" href="#">Home Sub3</a>
+            </div><!-- end <div class="sub-navlist"> -->
+            <div class="sub-navlist">
+                <a onclick="getId(this); openSubNav()" id="intermediate-section" <?php if($page == 'intermediate'){ 
+                    echo 'class="active"';}?> href="#">Intermediate</a>
+                    <a class="subnav2" style="display:none;" href="#">Intermediate Sub1</a>
+                    <a class="subnav2" style="display:none;" href="#">Intermediate Sub2</a>
+                    <a class="subnav2" style="display:none;" href="#">Intermediate Sub3</a>
+                </div><!-- END <div class="sub-navlist> --> <!-- END CURRENT WORK -->
+            <div class="sub-navlist">
+                <a onclick="getId(this); openSubNav()" id="advanced-section" <?php if($page == 'advanced'){ 
                 echo 'class="active"';}?> href="#">Advanced</a>
+                    <a class="subnav3" style="display:none;" href="#">Advanced Sub1</a>
+                    <a class="subnav3" style="display:none;" href="#">Advanced Sub2</a>
+                    <a class="subnav3" style="display:none;" href="#">Advanced Sub3</a>
+            </div><!-- END <div class="sub-navlist> -->
             <a <?php if($page == 'about'){ 
                 echo 'class="active"';}?> href="#">About</a>
     </nav>

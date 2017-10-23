@@ -55,4 +55,7 @@ nav ul li{
     font-size: 36px;
     margin-left: 50px;
 }
+.subnav1, .subnav2, .subnav3{
+    margin-left: 15px;
+}
 /* END OF SIDE NAVIGATION MENU*/
