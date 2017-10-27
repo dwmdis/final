@@ -11,6 +11,7 @@
   <main>
     <div>Home page
         <p>page = "<?php echo $page ?>"</p>
+        <p>I did it!</p>
       </div>
   </main>
 </body>
