@@ -40,3 +40,11 @@
             <a <?php if($page == 'about'){ 
                 echo 'class="active"';}?> href="#">About</a>
     </nav>
+    <nav id="myDesktopNav" class="desktopNav">
+      <ul id="desktop">
+        <li>Home</li>
+        <li>Beginner</li>
+        <li>Intermediate</li>
+        <li>Advanced</li>
+      </ul>
+    </nav>

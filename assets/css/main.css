@@ -62,8 +62,12 @@
 	    width: 50px;
 	    margin-left: 15px;
 	}
+  #myDesktopNav {
+      display: none;
+  }
 }
 /* END OF SIDE NAVIGATION MENU*/
+
 /* FIXING MOBILE NAV ELEMENTS for WEB VIEW */
 #click-here{
     display: none;
@@ -89,5 +93,19 @@ nav ul li{
     display: none;
     margin-left: 50px;
 }
-
-
+/* Desktop Navigation */
+#myDesktopNav ul {
+    display: inline;
+}
+#myDesktopNav ul li {
+    padding: 16px 32px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+#myDesktopNav ul li a {
+    text-decoration: none;
+}
+#myDesktopNav ul li a:active {
+    background-color: gray;
+}
