@@ -14,41 +14,42 @@
     </header>
     <nav id="myMobilenav" class="mobilenav">
             <a id="close-nav" href="#" class="closebtn" onclick="closeNav(); closeSubNav()">&times;</a>
-            <div class="sub-navlist">    
-                <a onclick="closeSubNav(); getId(this); openSubNav()" id="home-section" <?php if($page == 'home'){  echo 'class="active"';}?> href="#">Home</a>
+            <p class="sub-navlist">    
+                <a onclick="getId(this); openOrClose();" id="home-section" <?php if($page == 'home'){  echo 'class="active"';}?> href="#">Home</a>
                 <div class="float-container">
                     <a class="subnav1" href="<?= $linkpath ?>index.php">Main Page</a>
                     <a class="subnav1" href="<?= $linkpath ?>beginner/commandline.php">The Command Line</a>
                     <a class="subnav1" href="<?= $linkpath ?>beginner/introduction.php">Introduction</a>
                     <a class="subnav1" href="<?= $linkpath ?>beginner/commands.php">Basic Commands</a>
                 </div>
-            </div><!-- end <div class="sub-navlist"> -->
-            <div class="sub-navlist">
-                <a onclick="closeSubNav(); getId(this); openSubNav()" id="intermediate-section" <?php if($page == 'intermediate'){  
-                echo 'class="active"';}?> href="#">Intermediate</a>
+            </p><!-- end <div class="sub-navlist"> -->
+            <p class="sub-navlist">
+                <a onclick="getId(this); openOrClose();" id="intermediate-section" <?php if($page == 'intermediate'){  echo 'class="active"';}?> href="#">Intermediate</a>
                 <div class="float-container">
                     <a class="subnav2" href="<?= $linkpath ?>intermediate/intermediate.php">Intermediate Home</a>
                     <a class="subnav2" href="<?= $linkpath ?>intermediate/modal.php">Modal Editing</a>
                     <a class="subnav2" href="<?= $linkpath ?>intermediate/modes.php">Vi Modes</a>
+                    <a class="subnav2" href="<?= $linkpath ?>intermediate/modes.php">Placeholder</a>
                 </div>
-            </div><!-- END <div class="sub-navlist> -->
-            <div class="sub-navlist">
-                <a onclick="closeSubNav(); getId(this); openSubNav()" id="advanced-section" <?php if($page == 'advanced'){ 
+            </p><!-- END <div class="sub-navlist> -->
+            <p class="sub-navlist">
+                <a onclick="getId(this); openOrClose();" id="advanced-section" <?php if($page == 'advanced'){ 
                 echo 'class="active"';}?> href="#">Advanced</a>
                 <div class="float-container">
                     <a class="subnav3" href="<?= $linkpath ?>advanced/advanced.php">Advanced Home</a>
                     <a class="subnav3" href="<?= $linkpath ?>advanced/plugins.php">Plugins</a>
                     <a class="subnav3" href="<?= $linkpath ?>advanced/review.php">Command Refresher</a>
+                    <a class="subnav3" href="<?= $linkpath ?>intermediate/modes.php">Placeholder</a>
                 </div>
-            </div><!-- END <div class="sub-navlist> -->
-            <a <?php if($page == 'test'){ 
-                echo 'class="active"';}?> href="<?= $linkpath ?>test.php">Test of Skill</a>
-            <a <?php if($page == 'glossary'){ 
-                echo 'class="active"';}?> href="<?= $linkpath ?>glossary.php">Glossary</a>
-            <a <?php if($page == 'resources'){ 
-                echo 'class="active"';}?> href="<?= $linkpath ?>resources.php">Resources</a>
-            <a <?php if($page == 'about'){ 
-                echo 'class="active"';}?> href="<?= $linkpath ?>about.php">About</a>
+            </p><!-- END <div class="sub-navlist> -->
+            <p><a <?php if($page == 'test'){ 
+                echo 'class="active"';}?> href="<?= $linkpath ?>test.php">Test of Skill</a></p>
+            <p><a <?php if($page == 'glossary'){ 
+                echo 'class="active"';}?> href="<?= $linkpath ?>glossary.php">Glossary</a></p>
+            <p><a <?php if($page == 'resources'){ 
+                echo 'class="active"';}?> href="<?= $linkpath ?>resources.php">Resources</a></p>
+            <p><a <?php if($page == 'about'){ 
+                echo 'class="active"';}?> href="<?= $linkpath ?>about.php">About</a></p>
     </nav>
     <nav id="myDesktopNav" class="desktopNav">
       <ul id="desktop">

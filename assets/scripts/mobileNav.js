@@ -1,4 +1,3 @@
-
 //opens the mobile navigation
 function openNav() {
     "use strict";
@@ -11,7 +10,7 @@ function closeNav() {
 }
 // --------------------------------------------------------------------
 //THIS SECTION BELOW IS FOR THE SUBNAVIGATION ELEMENTS
-var myId;
+var myId, openClose = true;
 function getId(ele) {
     "use strict";
     myId = ele.id;
@@ -20,7 +19,6 @@ function getId(ele) {
 function openSubNav() {
     "use strict";
     var navSection;
-    var elems;
     if (myId === "home-section") {
         navSection = "subnav1";
     } else if (myId === "intermediate-section") {
@@ -28,10 +26,11 @@ function openSubNav() {
     } else if (myId === "advanced-section") {
         navSection = "subnav3";
     }
-    elems = document.getElementsByClassName(navSection);
+    var elems = document.getElementsByClassName(navSection);
     for (var i = 0; i < elems.length; i++) {
         elems[i].style.display = "block";
     }
+    openClose = false;
     window.console.log("openSubNav triggered, and myId is: ", myId);
 }
 function closeSubNav(){
@@ -46,9 +45,18 @@ function closeSubNav(){
     }
     window.console.log("closeSubNav triggered");
 }
-
-/*var elems = document.getElementsByClassName('btn-pageMenu');
-for (var i=0;i<elems.length;i+=1){
-  elems[i].style.display = 'block';
-}*/
+function openOrClose() {
+    "use strict";
+    if (openClose) {
+        //closeSubNav()
+        openSubNav();
+        //openClose = false;
+        console.log("openOrClose, open triggered");
+    }
+    else if (!openClose) {
+        closeSubNav();
+        openClose = true;
+        console.log("openOrClose, close triggered.");
+    }
+}
 //END OF SECTION FOR SUBNAVIGATIONAL ELEMENTS
