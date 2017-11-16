@@ -51,11 +51,29 @@
             <p><a <?php if($page == 'about'){ 
                 echo 'class="active"';}?> href="<?= $linkpath ?>about.php">About</a></p>
     </nav>
-    <nav id="myDesktopNav" class="desktopNav">
-      <ul id="desktop">
-        <li>Home</li>
-        <li>Beginner</li>
-        <li>Intermediate</li>
-        <li>Advanced</li>
-      </ul>
-    </nav>
+    <nav id="dropbar">
+	  <ul>
+	    <li><a href="#">Home</a></li>
+	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Beginner &#9660;</a>
+	      <div class="dropdown-content" id="beginner">
+	        <a href="#">Link 1</a>
+	        <a href="#">Link 2</a>
+	        <a href="#">Link 3</a>
+	      </div>
+	    </li>
+	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Intermediate &#9660;</a>
+	      <div class="dropdown-content" id="intermediate">
+	        <a href="#">Link 1</a>
+	        <a href="#">Link 2</a>
+	        <a href="#">Link 3</a>
+	      </div>
+	    </li>
+	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Advanced &#9660;</a>
+	      <div class="dropdown-content" id="advanced">
+	        <a href="#">Link 1</a>
+	        <a href="#">Link 2</a>
+	        <a href="#">Link 3</a>
+	      </div>
+	    </li>                 
+	  </ul>
+  </nav>

@@ -62,9 +62,9 @@
 	    width: 50px;
 	    margin-left: 15px;
 	}
-  #myDesktopNav {
+  /*#myDesktopNav {
       display: none;
-  }
+  }*/
 }
 /* END OF SIDE NAVIGATION MENU*/
 @media screen and (min-width: 800px){
@@ -97,7 +97,7 @@
         margin-left: 50px;
     }
     /* Desktop Navigation */
-    #myDesktopNav ul {
+    /*#myDesktopNav ul {
         display: inline;
     }
     #myDesktopNav ul li {
@@ -111,5 +111,66 @@
     }
     #myDesktopNav ul li a:active {
         background-color: gray;
-    }
+    }*/
+}
+
+/* DESKTOP VIEW DROPDOWN NAVIGATION */
+@media screen and (max-width > 799px) {
+  #click-here {
+    display: none;
+  }
+}
+
+#dropbar ul {
+  font-family: Helvetica, sans-serif;
+  list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #444;
+}
+
+#dropbar li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#dropbar li a:hover, .dropdown:hover .dropbtn {
+  background-color: #00BB00;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  min-width: 160px;
+  box-shadow: 3px 2px 4px #555;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #777;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
