@@ -12,6 +12,10 @@
     <div>Home page
         <p>page = "<?php echo $page ?>"</p>
         <p>I did it!</p>
+        <form id="search-box">
+            <input type="search" placeholder="Search this site..." />
+            <input type="submit" value="Search" class="btn-search"  />
+        </form>
       </div>
   </main>
 </body>

@@ -3,20 +3,14 @@
 	header{
 	    
 	}
-	#big-logo{
+	#big-logo, #search-box, #dropbar{
 	    display: none;
 	}
 	#small-logo{
 	    display: block;
-	}
-	#search-box{
-	    display: none;
-	}
+    }
 	/* MOBILE NAVIGATION MENU */
-	#click-here{
-	    display: inline;
-	}
-	#close-nav{
+	#click-here, #closenav{
 	    display: inline;
 	}
 	nav ul li{

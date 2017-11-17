@@ -1,16 +1,12 @@
     <?php 
         $linkpath = "http://serenity.ist.rit.edu/~iste240t04/240/final/"
     ?>
-    <span id="click-here" onclick="openNav()">Click Here!</span>
     <header>
+        <span id="click-here" onclick="openNav()">Click Here!</span>
         <image id="logos">
         <!-- <img id="big-logo" src="http://lorempixel.com/400/200/" alt="big-logo"/>
         <img id="small-logo" src="http://lorempixel.com/100/50/" alt="small-logo" /> -->
         </image>
-        <form id="search-box">
-            <input type="search" placeholder="Search this site..." />
-            <input type="submit" value="Search" class="btn-search"  />
-        </form>
     </header>
     <nav id="myMobilenav" class="mobilenav">
             <a id="close-nav" href="#" class="closebtn" onclick="closeNav(); closeSubNav()">&times;</a>
