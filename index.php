@@ -9,7 +9,6 @@
 <body>
 <?php include "assets/inc/navigation.php" ?>
   <main>
-<<<<<<< Updated upstream
     <div>Home page
         <p>page = "<?php echo $page ?>"</p>
         <p>I did it!</p>
@@ -17,7 +16,6 @@
             <input type="search" placeholder="Search this site..." />
             <input type="submit" value="Search" class="btn-search"  />
         </form>
-=======
     <div class="content" id="home"><h1>VIable</h1>
         <!--<p>page = "<?php echo $page ?>"</p>-->
         <p>
@@ -36,7 +34,6 @@
 	        Morbi et fringilla nunc. Duis interdum vestibulum nulla et ullamcorper.
 	        Sed ullamcorper molestie ornare.
         </p>
->>>>>>> Stashed changes
       </div>
   </main>
 </body>
