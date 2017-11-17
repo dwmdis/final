@@ -52,24 +52,32 @@
 	    <li><a href="#">Home</a></li>
 	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Beginner &#9660;</a>
 	      <div class="dropdown-content" id="beginner">
-	        <a href="#">Link 1</a>
-	        <a href="#">Link 2</a>
-	        <a href="#">Link 3</a>
+	        <a href="beginner/introduction.php">Introduction</a>
+	        <a href="beginner/commandline.php">Command Line</a>
+	        <a href="beginner/commands.php">Commands</a>
 	      </div>
 	    </li>
 	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Intermediate &#9660;</a>
 	      <div class="dropdown-content" id="intermediate">
-	        <a href="#">Link 1</a>
-	        <a href="#">Link 2</a>
-	        <a href="#">Link 3</a>
+	        <a href="intermediate/intermediate.php">Intermediate</a>
+	        <a href="intermediate/modal.php">Modal</a>
+	        <a href="intermediate/modes.php">Modes</a>
 	      </div>
 	    </li>
 	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Advanced &#9660;</a>
 	      <div class="dropdown-content" id="advanced">
-	        <a href="#">Link 1</a>
-	        <a href="#">Link 2</a>
-	        <a href="#">Link 3</a>
+	        <a href="advanced/advanced.php">Advanced</a>
+	        <a href="advanced/review.php">Review</a>
+	        <a href="advanced/plugins.php">Plugins</a>
 	      </div>
-	    </li>                 
+	    </li>   
+	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Other &#9660;</a>              
+	      <div class="dropdown-content" id="other">
+	        <a href="about.php">About</a>
+	        <a href="glossary.php">Glossary</a>
+	        <a href="resources.php">Resources</a>
+	        <a href="test.php">Test</a>
+	      </div>
+	    </li>
 	  </ul>
   </nav>
