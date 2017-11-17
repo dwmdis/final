@@ -49,35 +49,35 @@
     </nav>
     <nav id="dropbar">
 	  <ul>
-	    <li><a href="<?= $relpath ?>index.php">Home</a></li>
+	    <li><a href="#">Home</a></li>
 	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Beginner &#9660;</a>
 	      <div class="dropdown-content" id="beginner">
-	        <a href="<?= $relpath ?>introduction.php">Introduction</a>
-	        <a href="<?= $relpath ?>commandline.php">Command Line</a>
-	        <a href="<?= $relpath ?>commands.php">Commands</a>
+	        <a class="subnav1" href="<?= $linkpath ?>beginner/commandline.php">The Command Line</a>
+	        <a class="subnav1" href="<?= $linkpath ?>beginner/introduction.php">Introduction</a>
+            <a class="subnav1" href="<?= $linkpath ?>beginner/commands.php">Basic Commands</a>
 	      </div>
 	    </li>
 	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Intermediate &#9660;</a>
 	      <div class="dropdown-content" id="intermediate">
-	        <a href="<?= $relpath ?>intermediate.php">Intermediate</a>
-	        <a href="<?= $relpath ?>modal.php">Modal</a>
-	        <a href="<?= $relpath ?>modes.php">Modes</a>
+	        <a class="subnav2" href="<?= $linkpath ?>intermediate/intermediate.php">Intermediate Home</a>
+            <a class="subnav2" href="<?= $linkpath ?>intermediate/modal.php">Modal Editing</a>
+            <a class="subnav2" href="<?= $linkpath ?>intermediate/modes.php">Vi Modes</a>
 	      </div>
 	    </li>
 	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Advanced &#9660;</a>
 	      <div class="dropdown-content" id="advanced">
-	        <a href="<?= $relpath ?>advanced.php">Advanced</a>
-	        <a href="<?= $relpath ?>review.php">Review</a>
-	        <a href="<?= $relpath ?>plugins.php">Plugins</a>
-	      </div>
-	    </li>   
-	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Other &#9660;</a>              
-	      <div class="dropdown-content" id="other">
-	        <a href="<?= $relpath ?>about.php">About</a>
-	        <a href="<?= $relpath ?>glossary.php">Glossary</a>
-	        <a href="<?= $relpath ?>resources.php">Resources</a>
-	        <a href="<?= $relpath ?>test.php">Test</a>
+	        <a class="subnav3" href="<?= $linkpath ?>advanced/advanced.php">Advanced Home</a>
+            <a class="subnav3" href="<?= $linkpath ?>advanced/plugins.php">Plugins</a>
+            <a class="subnav3" href="<?= $linkpath ?>advanced/review.php">Command Refresher</a>
 	      </div>
 	    </li>
+          <li class="dropdown"><a href="<?= $linkpath ?>test.php">Test of Skill</a></li>
+          <li class="dropdown"><a href="<?= $linkpath ?>glossary.php">Glossary</a></li>
+          <li class="dropdown"><a href="<?= $linkpath ?>resources.php">Resources</a></li>
+          <li class="dropdown"><a href="<?= $linkpath ?>about.php">About</a></li>
+          <form id="searchbox">
+        <input type="search" placeholder="Search this site.." />
+        <input type="submit" class="btn-search" />
+    </form>
 	  </ul>
   </nav>

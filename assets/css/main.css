@@ -90,6 +90,10 @@
         display: none;
         margin-left: 50px;
     }
+    #searchbox{
+        float: right;
+        margin: 15px 10px 0 0;
+    }
     /* Desktop Navigation */
     /*#myDesktopNav ul {
         display: inline;
