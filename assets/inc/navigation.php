@@ -49,7 +49,7 @@
     </nav>
     <nav id="dropbar">
 	  <ul>
-	    <li><a href="#">Home</a></li>
+	    <li><a href="<?= $linkpath ?>">Home</a></li>
 	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Beginner &#9660;</a>
 	      <div class="dropdown-content" id="beginner">
 	        <a href="<?= $linkpath ?>beginner/commandline.php">The Command Line</a>
