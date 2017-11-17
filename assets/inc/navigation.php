@@ -49,34 +49,34 @@
     </nav>
     <nav id="dropbar">
 	  <ul>
-	    <li><a href="#">Home</a></li>
+	    <li><a href="<?= $relpath ?>index.php">Home</a></li>
 	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Beginner &#9660;</a>
 	      <div class="dropdown-content" id="beginner">
-	        <a href="beginner/introduction.php">Introduction</a>
-	        <a href="beginner/commandline.php">Command Line</a>
-	        <a href="beginner/commands.php">Commands</a>
+	        <a href="<?= $relpath ?>introduction.php">Introduction</a>
+	        <a href="<?= $relpath ?>commandline.php">Command Line</a>
+	        <a href="<?= $relpath ?>commands.php">Commands</a>
 	      </div>
 	    </li>
 	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Intermediate &#9660;</a>
 	      <div class="dropdown-content" id="intermediate">
-	        <a href="intermediate/intermediate.php">Intermediate</a>
-	        <a href="intermediate/modal.php">Modal</a>
-	        <a href="intermediate/modes.php">Modes</a>
+	        <a href="<?= $relpath ?>intermediate.php">Intermediate</a>
+	        <a href="<?= $relpath ?>modal.php">Modal</a>
+	        <a href="<?= $relpath ?>modes.php">Modes</a>
 	      </div>
 	    </li>
 	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Advanced &#9660;</a>
 	      <div class="dropdown-content" id="advanced">
-	        <a href="advanced/advanced.php">Advanced</a>
-	        <a href="advanced/review.php">Review</a>
-	        <a href="advanced/plugins.php">Plugins</a>
+	        <a href="<?= $relpath ?>advanced.php">Advanced</a>
+	        <a href="<?= $relpath ?>review.php">Review</a>
+	        <a href="<?= $relpath ?>plugins.php">Plugins</a>
 	      </div>
 	    </li>   
 	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Other &#9660;</a>              
 	      <div class="dropdown-content" id="other">
-	        <a href="about.php">About</a>
-	        <a href="glossary.php">Glossary</a>
-	        <a href="resources.php">Resources</a>
-	        <a href="test.php">Test</a>
+	        <a href="<?= $relpath ?>about.php">About</a>
+	        <a href="<?= $relpath ?>glossary.php">Glossary</a>
+	        <a href="<?= $relpath ?>resources.php">Resources</a>
+	        <a href="<?= $relpath ?>test.php">Test</a>
 	      </div>
 	    </li>
 	  </ul>
