@@ -7,7 +7,7 @@
 <?php include "../assets/inc/head.php" ?>
 <!-- <head> went here -->
 <body>
-<?php include "assets/inc/navigation.php" ?>
+<?php include "../assets/inc/navigation.php" ?>
   <main>
     <div class="content" id="home"><h1>VIable</h1>
         <p>page = "<?php echo $page ?>"</p>
