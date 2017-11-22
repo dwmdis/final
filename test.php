@@ -32,96 +32,96 @@
         <p>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/></span>
             <label for="ans1">
-                <input type="radio" title="q1ans" id="ans1"/>Lorem&emsp;
+                <input type="radio" name="q1ans" id="ans1"/>Lorem&emsp;
             </label>
             <label for="ans2">
-                <input type="radio" title="q1ans" id="ans2"/>Ipsum&emsp;
+                <input type="radio" name="q1ans" id="ans2"/>Ipsum&emsp;
             </label>
             <label for="ans3">
-                <input type="radio" title="q1ans" id="ans3"/>Loremipsum&emsp;
+                <input type="radio" name="q1ans" id="ans3"/>Loremipsum&emsp;
             </label>
             <label for="ans4">
-                <input type="radio" title="q1ans" id="ans4"/>Lor&emsp;
+                <input type="radio" name="q1ans" id="ans4"/>Lor&emsp;
             </label>
         </p>
         
         <p>
             <span>Aenean ullamcorper augue a arcu finibus, ut euismod mi porttitor. Aliquam sit:<br/></span>
             <label for="ans1">
-                <input type="radio" title="q2ans" id="ans1"/>Lorem&emsp;
+                <input type="radio" name="q2ans" id="ans1"/>Lorem&emsp;
             </label>
             <label for="ans2">
-                <input type="radio" title="q2ans" id="ans2"/>Ipsum&emsp;
+                <input type="radio" name="q2ans" id="ans2"/>Ipsum&emsp;
             </label>
             <label for="ans3">
-                <input type="radio" title="q2ans" id="ans3"/>Loremipsum&emsp;
+                <input type="radio" name="q2ans" id="ans3"/>Loremipsum&emsp;
             </label>
             <label for="ans4">
-                <input type="radio" title="q2ans" id="ans4"/>Lor&emsp;
+                <input type="radio" name="q2ans" id="ans4"/>Lor&emsp;
             </label>
         </p>
         
         <p>
             <span>Aenean ullamcorper augue finibus, ut euismod mi porttitor sit:<br/></span>
             <label for="ans1">
-                <input type="radio" title="q3ans" id="ans1"/>Lorem&emsp;
+                <input type="radio" name="q3ans" id="ans1"/>Lorem&emsp;
             </label>
             <label for="ans2">
-                <input type="radio" title="q3ans" id="ans2"/>Ipsum&emsp;
+                <input type="radio" name="q3ans" id="ans2"/>Ipsum&emsp;
             </label>
             <label for="ans3">
-                <input type="radio" title="q3ans" id="ans3"/>Loremipsum&emsp;
+                <input type="radio" name="q3ans" id="ans3"/>Loremipsum&emsp;
             </label>
             <label for="ans4">
-                <input type="radio" title="q3ans" id="ans4"/>Lor&emsp;
+                <input type="radio" name="q3ans" id="ans4"/>Lor&emsp;
             </label>
         </p>
         
         <p>
             <span>Ullamcorper augue a arcu finibus, ut euismod mi porttitor. Aliquam sit:<br/></span>
             <label for="ans1">
-                <input type="radio" title="q4ans" id="ans1"/>Lorem&emsp;
+                <input type="radio" name="q4ans" id="ans1"/>Lorem&emsp;
             </label>
             <label for="ans2">
-                <input type="radio" title="q4ans" id="ans2"/>Ipsum&emsp;
+                <input type="radio" name="q4ans" id="ans2"/>Ipsum&emsp;
             </label>
             <label for="ans3">
-                <input type="radio" title="q4ans" id="ans3"/>Loremipsum&emsp;
+                <input type="radio" name="q4ans" id="ans3"/>Loremipsum&emsp;
             </label>
             <label for="ans4">
-                <input type="radio" title="q4ans" id="ans4"/>Lor&emsp;
+                <input type="radio" name="q4ans" id="ans4"/>Lor&emsp;
             </label>
         </p>
         
         <p>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper augue a arcu finibus, ut sit:<br/></span>
             <label for="ans1">
-                <input type="radio" title="q5ans" id="ans1"/>Lorem&emsp;
+                <input type="radio" name="q5ans" id="ans1"/>Lorem&emsp;
             </label>
             <label for="ans2">
-                <input type="radio" title="q5ans" id="ans2"/>Ipsum&emsp;
+                <input type="radio" name="q5ans" id="ans2"/>Ipsum&emsp;
             </label>
             <label for="ans3">
-                <input type="radio" title="q5ans" id="ans3"/>Loremipsum&emsp;
+                <input type="radio" name="q5ans" id="ans3"/>Loremipsum&emsp;
             </label>
             <label for="ans4">
-                <input type="radio" title="q5ans" id="ans4"/>Lor&emsp;
+                <input type="radio" name="q5ans" id="ans4"/>Lor&emsp;
             </label>
         </p>
         
         <p>
             <span>Consectetur adipiscing elit. Aenean ullamcorper augue a arcu finibus, ut euismod mi porttitor. Aliquam sit:<br/></span>
             <label for="ans1">
-                <input type="radio" title="q6ans" id="ans1"/>Lorem&emsp;
+                <input type="radio" name="q6ans" id="ans1"/>Lorem&emsp;
             </label>
             <label for="ans2">
-                <input type="radio" title="q6ans" id="ans2"/>Ipsum&emsp;
+                <input type="radio" name="q6ans" id="ans2"/>Ipsum&emsp;
             </label>
             <label for="ans3">
-                <input type="radio" title="q6ans" id="ans3"/>Loremipsum&emsp;
+                <input type="radio" name="q6ans" id="ans3"/>Loremipsum&emsp;
             </label>
             <label for="ans4">
-                <input type="radio" title="q6ans" id="ans4"/>Lor&emsp;
+                <input type="radio" name="q6ans" id="ans4"/>Lor&emsp;
             </label>
         </p>
         
