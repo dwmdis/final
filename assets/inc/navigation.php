@@ -76,8 +76,9 @@
           <li class="dropdown"><a href="<?= $linkpath ?>resources.php">Resources</a></li>
           <li class="dropdown"><a href="<?= $linkpath ?>about.php">About</a></li>
           <form id="searchbox">
-        <input type="search" placeholder="Search this site.." />
-        <input type="submit" class="btn-search" />
+        <script src="<?= $relpath?>assets/scripts/search.js"></script>
+        <input type="search" placeholder="Search this site.." id="searchb" />
+        <input type="button" value="Search" class="btn-search" onclick="search();" />
     </form>
 	  </ul>
   </nav>
