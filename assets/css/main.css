@@ -59,6 +59,12 @@
   /*#myDesktopNav {
       display: none;
   }*/
+  .content {
+   	  width: 100%;
+  }
+  #dropbar {
+      display: none;
+  }
 }
 /* END OF SIDE NAVIGATION MENU*/
 @media screen and (min-width: 800px){
@@ -94,31 +100,19 @@
         float: right;
         margin: 15px 10px 0 0;
     }
-    /* Desktop Navigation */
-    /*#myDesktopNav ul {
-        display: inline;
+    #click-here {
+        display: none;
     }
-    #myDesktopNav ul li {
-        padding: 16px 32px;
-        font-weight: bold;
-        color: white;
-        background-color: black;
-    }
-    #myDesktopNav ul li a {
-        text-decoration: none;
-    }
-    #myDesktopNav ul li a:active {
-        background-color: gray;
-    }*/
 }
 
 /* DESKTOP VIEW DROPDOWN NAVIGATION */
+/*
 @media screen and (min-width > 799px) {
   #click-here {
     display: none;
   }
-}/* <-----THIS is in the wrong place, 
-    moving it messes up the css */
+}<-----THIS is in the wrong place, 
+    moving it messes up the css*/
 
 #dropbar ul {
   font-family: Helvetica, sans-serif;
@@ -182,6 +176,7 @@ li.dropdown {
   border-radius: 4px;
   background-color: #444;
   color: white;
+  width: 75%;
 }
 
 .content p {
