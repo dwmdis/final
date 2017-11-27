@@ -12,7 +12,6 @@
     <div class="content" id="home"><h1>VIable</h1>
         <p>page = "<?php echo $page ?>"</p>
         <p>
-	        Vestibulum placerat elit lorem, nec dictum eros molestie at. 
 	        <b>user@localhost~:$</b> 
 	        Here are some of the first commands that you sould know for vim:
 	        <dl>
