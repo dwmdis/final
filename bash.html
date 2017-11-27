@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <title>Bash</title>
   <style>
-      main{
+      /*main{
           background-color: black;
       }
       #btnEnter{
@@ -20,7 +20,7 @@
       }
       #prompt{
           font-size: 13px;
-      }
+      }*/
 
   </style>
 </head>
@@ -51,13 +51,13 @@
                     document.onkeydown = function(esc) { //esc key pressed
                         esc = esc || window.event;
                         if (esc.keyCode == 27) {
+                            display.readOnly = true;
                             document.getElementById("input-box").focus();
-                            //alert("esc triggered");
+                            display.scrollTop = display.scrollHeight;
                             print = newInput;
                             display.value = print;
-                            display.scrollTop = display.scrollHeight;
-                            display.readOnly = true;
                             document.getElementById("prompt").style.visibility = "visible";
+                            //alert("esc triggered");
                         }
                     }
                 }
@@ -67,9 +67,12 @@
                     display.value = print;
                     display.scrollTop = display.scrollHeight;
                 }
+                else if(input === "."){
+                    display.value = "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+                }
                 else{
                     newInput = display.value;
-                    print = newInput + prompt + "ERROR\n";
+                    print = newInput + prompt + "ERROR: Right now, only ls and vi work.\n";
                     display.value = print;
                     display.scrollTop = display.scrollHeight;
                 }
