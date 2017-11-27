@@ -12,20 +12,47 @@
     <div class="content" id="home"><h1>VIable</h1>
         <p>page = "<?php echo $page ?>"</p>
         <p>
-	        <b>user@localhost~:$</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-	        Morbi cursus ultrices nibh a porta. 
-	        Aenean rhoncus dolor est, sit amet auctor sem ullamcorper eget. 
-	        Nulla egestas mi mauris, ut malesuada mi ultrices sit amet. 
-	        Sed posuere consectetur sapien non dignissim. 
-	        Vestibulum dictum purus et nisl varius, ac aliquet metus laoreet. 
-	        Ut porttitor semper ultricies. 
-	        Pellentesque aliquet elit sit amet rutrum finibus. 
-	        Integer ornare libero sit amet accumsan auctor. 
 	        Vestibulum placerat elit lorem, nec dictum eros molestie at. 
-	        Suspendisse quis eros metus. Sed dictum vitae risus non posuere. 
-	        Quisque ultricies arcu eu luctus dignissim. 
-	        Morbi et fringilla nunc. Duis interdum vestibulum nulla et ullamcorper.
-	        Sed ullamcorper molestie ornare.
+	        <b>user@localhost~:$</b> 
+	        Here are some of the first commands that you sould know for vim:
+	        <dl>
+	        	<dt>vi <i>filename</i></dt>
+	        	<dd>Open the file for editing</dd>
+
+	        	<dt>:w</dt>
+	        	<dd>Write to file</dd>
+
+	        	<dt>:e</dt>
+	        	<dd>Edit the file</dd>
+
+	        	<dt>:x</dt>
+	        	<dd>Exit the file and save changes</dd>
+
+	        	<dt>:q</dt>
+	        	<dd>Exit if there were no changes</dd>
+
+	        	<dt>:wq</dt>
+	        	<dd>Save changes and quit</dd>
+
+	        	<dt>i</dt>
+	        	<dd>Insert before cursor</dd>
+
+	        	<dt>:d</dt>
+	        	<dd>Delete current line</dd>
+
+	        	<dt>h</dt>
+	        	<dd>Move left</dd>
+
+	        	<dt>j</dt>
+	        	<dd>Move down</dd>
+
+	        	<dt>k</dt>
+	        	<dd>Move up</dd>
+
+	        	<dt>l</dt>
+	        	<dd>Move Right</dd>
+	        </dl>
+
         </p>
     </div>
   </main>
