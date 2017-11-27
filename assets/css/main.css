@@ -117,7 +117,8 @@
   #click-here {
     display: none;
   }
-}
+}/* <-----THIS is in the wrong place, 
+    moving it messes up the css */
 
 #dropbar ul {
   font-family: Helvetica, sans-serif;
