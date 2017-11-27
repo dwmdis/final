@@ -1,6 +1,5 @@
 var tally = "0";
 function check(){
-    
     if(document.getElementById("q1a2").checked){
         tally ++;
     }
@@ -24,6 +23,7 @@ function check(){
     }
     else{
         alert("Fail! Because tally = " + tally);
+        event.preventDefault();
     }
 
 }

@@ -11,7 +11,7 @@
     <script src="assets/scripts/answer_key.js"></script>
   <main>
       <div class="content" id="home">
-        <form method="post" action="test.php" id="quizform">
+        <form method="post" action="index.php" id="quizform">
             <p>
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper augue a arcu finibus, ut euismod mi porttitor. Aliquam sit:<br/></span>
                 <label for="ans1">
@@ -109,7 +109,7 @@
             </p>
         
             <p>
-                <input type="submit" value="Submit Quiz" id="btn submit" onclick="check()"/>
+                <input type="submit" value="Submit Quiz" id="btn-submit" onclick="check();"/>
             </p>
     
         </form>
