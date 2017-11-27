@@ -28,6 +28,7 @@
         </p>
     </div>
   </main>
+  <?php include "../assets/inc/footer.php" ?>
 </body>
 
 </html>
