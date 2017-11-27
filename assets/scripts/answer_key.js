@@ -1,6 +1,6 @@
 var tally = "0";
 function check(){
-    alert("check has run!");
+    
     if(document.getElementById("q1a2").checked){
         tally ++;
     }
