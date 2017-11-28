@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Bash</title>
+  <style>
+      /*main{
+          background-color: black;
+      }
+      #btnEnter{
+          visibility: hidden;
+      }
+      textarea, #input-box, #prompt{
+          border: none;
+          background-color: black;
+          color: white;
+      }
+      textarea:focus, #input-box:focus{
+          outline: none;
+      }
+      #prompt{
+          font-size: 13px;
+      }*/
+
+  </style>
+</head>
+<body>
+    <script>
+        function enter(blah){
+            var display = document.getElementById("output-box");
+            var input = document.getElementById("input-box").value;
+            var newInput = "";
+            var prompt = "user@demo~> ";
+            var print = "";
+            var firstTime = true;
+            
+                if(input === "ls"){
+                    newInput = display.value;
+                    print = newInput + prompt + "\n";
+                    display.value = print + "demo.txt   blank.txt   totallyNotFake.txt\n";
+                    display.scrollTop = display.scrollHeight;
+                    //document.getElementById("output-box").value = input;
+                   
+                }
+                else if(input === "vi"){
+                    newInput = display.value;
+                    display.value = "";
+                    display.readOnly = false;
+                    display.focus();
+                    document.getElementById("prompt").style.visibility = "hidden";
+                    document.onkeydown = function(esc) { //esc key pressed
+                        esc = esc || window.event;
+                        if (esc.keyCode == 27) {
+                            display.readOnly = true;
+                            document.getElementById("input-box").focus();
+                            display.scrollTop = display.scrollHeight;
+                            print = newInput;
+                            display.value = print;
+                            document.getElementById("prompt").style.visibility = "visible";
+                            //alert("esc triggered");
+                        }
+                    }
+                }
+                else if(input === ""){
+                    newInput = display.value;
+                    print = newInput + prompt + "\n";
+                    display.value = print;
+                    display.scrollTop = display.scrollHeight;
+                }
+                else if(input === "."){
+                    display.value = "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+                }
+                else{
+                    newInput = display.value;
+                    print = newInput + prompt + "ERROR: Right now, only ls and vi work.\n";
+                    display.value = print;
+                    display.scrollTop = display.scrollHeight;
+                }
+            //document.getElementById("output").value = input;
+            document.getElementById("input-box").value = "";
+        }
+
+    </script>
+  <main>
+   <!-- <form id="bash-shell"
+            method="post"
+            action="bash.php"
+            onsubmit="">-->
+        
+        <textarea
+                  rows="20"
+                  cols="100"
+                  name="output-box"
+                  id="output-box"
+                  readonly="readonly"
+                  value = ""></textarea>
+        <p></p>
+        <span id="prompt">user@demo~></span>
+        <input type="text"
+               name="input-box" 
+               id="input-box"
+               size="86"
+               autofocus="autofocus"
+               onkeydown = "if (event.keyCode == 13)
+                        document.getElementById('btnEnter').click()"/>
+        
+        <input type = "button"
+               id = "btnEnter"
+               value = "Enter"
+               onclick = "enter();"/>
+   <!-- </form>-->
+  </main>
+</body>
+
+</html>

@@ -12,20 +12,13 @@
     <div class="content" id="home"><h1>VIable</h1>
         <p>page = "<?php echo $page ?>"</p>
         <p>
-	        <b>user@localhost~:$</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-	        Morbi cursus ultrices nibh a porta. 
-	        Aenean rhoncus dolor est, sit amet auctor sem ullamcorper eget. 
-	        Nulla egestas mi mauris, ut malesuada mi ultrices sit amet. 
-	        Sed posuere consectetur sapien non dignissim. 
-	        Vestibulum dictum purus et nisl varius, ac aliquet metus laoreet. 
-	        Ut porttitor semper ultricies. 
-	        Pellentesque aliquet elit sit amet rutrum finibus. 
-	        Integer ornare libero sit amet accumsan auctor. 
-	        Vestibulum placerat elit lorem, nec dictum eros molestie at. 
-	        Suspendisse quis eros metus. Sed dictum vitae risus non posuere. 
-	        Quisque ultricies arcu eu luctus dignissim. 
-	        Morbi et fringilla nunc. Duis interdum vestibulum nulla et ullamcorper.
-	        Sed ullamcorper molestie ornare.
+	        <b>user@localhost~:$</b>
+	        Vi is a text-editor originally created to be used with the Unix operating system. Vi was developed by Bill joy in 1976. It was originally created to be the full screen visual mode of a different editor, ex.<br/>
+
+	        Joy created the first BSD, Berkley Software Distribution, Unix in 1978. He included ex in the distribution, thus exposing his audience to vi for the first time. When he found that most users were only using vi, he made it a hard link to ex in the next release. In 1979 Bill Joy stepped down as the lead developer and Mark Holton took the role. <br/>
+
+	        
+
         </p>
     </div>
   </main>
