@@ -263,3 +263,22 @@ input[type=submit]:hover {
 	background-color: #007700;
 }
 
+/* BEGINNER PAGES CSS */
+dl {
+	margin: 2px auto;
+	padding: 5px;
+	border: 2px solid black;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	border-bottom: 1px solid black;
+}
+
+dt, dd {
+	padding: 1px;
+}
+
