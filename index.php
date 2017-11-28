@@ -8,7 +8,9 @@
 <body>
 <?php include "assets/inc/navigation.php" ?>
   <main>
-    <div class="content" id="home"><h1>VIable</h1>
+    <div class="content" id="home">
+    	<img id="logo" src="assets/images/logo-final.png">
+    	<h1>VIable</h1>
         <p>page = "<?php echo $page ?>"</p>
         <p>
 	        <b>user@localhost~:$</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

@@ -1,3 +1,12 @@
+/* CSS reset */
+* { 
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-y: scroll;
+}
 /* Mobile view */
 @media screen and (min-width: 300px) and (max-width: 799px) {
 	header{
@@ -59,12 +68,15 @@
   /*#myDesktopNav {
       display: none;
   }*/
-  .content {
-   	  width: 100%;
-  }
-  #dropbar {
-      display: none;
-  }
+  	.content {
+   	  	width: 100%;
+  	}
+  	#dropbar {
+      	display: none;
+ 	}
+  	#quizform {
+  	  	width: 100%;
+  	}
 }
 /* END OF SIDE NAVIGATION MENU*/
 @media screen and (min-width: 800px){
@@ -113,14 +125,18 @@
   }
 }<-----THIS is in the wrong place, 
     moving it messes up the css*/
+    
+#dropbar {
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
 
 #dropbar ul {
-  font-family: Helvetica, sans-serif;
-  list-style-type: none;
-	margin: 0;
-	padding: 0;
+  	font-family: Helvetica, sans-serif;
+  	list-style-type: none;
 	overflow: hidden;
-	background-color: #444;
+	background-color: #333;
 }
 
 #dropbar li {
@@ -128,7 +144,7 @@
 }
 
 li a, .dropbtn {
-  display: inline-block;
+  	display: inline-block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
@@ -170,17 +186,19 @@ li.dropdown {
 
 /* Content CSS */
 .content {
-  display: inline-block;
-  margin: 10px 0 auto;
+  display: block;
+  width: 75%;
+  margin: 50px auto;
+  padding: 5px;
   box-shadow: 2px 1px 3px black;
   border-radius: 4px;
   background-color: #444;
   color: white;
-  width: 75%;
+
 }
 
 .content p {
-  padding: 10px;
+  padding: 12px;
   font-size: 14px;
   font-family: Helvetica, sans-serif;
 }
@@ -192,9 +210,16 @@ h1 {
   padding: 5px;
 }
 
+#logo {
+	width: 20%;
+	height: 30%;
+	float: right;
+}
+
 .content b {
   color: #00bb00;
 }
+
 /* Footer CSS */
 .footer {
   position: fixed;
@@ -205,5 +230,36 @@ h1 {
   color: white;
   text-align: left;
   font-size: 12px;
+  padding: 16px 20px;
+}
+
+/* Test Form CSS */
+#quizform {
+	margin: 10px auto;
+}
+
+span {
+	display: inline-block;
+	padding: 2px;
+	font-weight: bold;
+}
+
+label {
+	display: block;
+	padding: 4px;
+}
+
+input[type=submit] {
+	background-color: #009900;
+	color: white;
+	padding: 12px 16px;
+	border: none;
+	cursor: pointer;
+	position: relative;
+}
+
+input[type=submit]:hover {
+	padding: 14px 18px;
+	background-color: #007700;
 }
 
