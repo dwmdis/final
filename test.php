@@ -12,7 +12,7 @@
   <main>
       <div class="content" id="home">
         <h1>Vi Quiz: How VIable are you?</h1>
-        <form method="post" action="index.php" id="quizform">
+        <form method="post" action="certificate.html" id="quizform">
             <p>
                 <span>1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper augue a arcu finibus, ut euismod mi porttitor. Aliquam sit:<br/></span>
                 <label for="q1a1">
