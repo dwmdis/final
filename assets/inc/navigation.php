@@ -17,6 +17,7 @@
                     <a class="subnav1" href="<?= $linkpath ?>beginner/introduction.php">Introduction</a>
                     <a class="subnav1" href="<?= $linkpath ?>beginner/commandline.php">The Command Line</a>
                     <a class="subnav1" href="<?= $linkpath ?>beginner/commands.php">Basic Commands</a>
+                    <a class="subnav1" href="<?= $linkpath ?>beginner/introduction.php">Introduction</a>
                 </div>
             </p><!-- end <div class="sub-navlist"> -->
             <p class="sub-navlist">
