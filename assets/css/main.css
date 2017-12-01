@@ -184,6 +184,10 @@ li.dropdown {
   display: block;
 }
 
+#dropbar li a:active {
+	color: #008800;
+}
+
 /* Content CSS */
 .content {
   display: block;

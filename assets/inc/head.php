@@ -4,5 +4,6 @@
     <title><?php echo $title; ?></title>
     <link type="text/css" href="<?= $relpath ?>assets/css/main.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/images/logo-final-icon.png">
+    <script src="<?php echo $relpath ?>assets/scripts/activeNav.js"></script>
     <script src="<?php echo $relpath ?>assets/scripts/mobileNav.js"></script>
 </head>
