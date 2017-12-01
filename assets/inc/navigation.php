@@ -47,7 +47,7 @@
             <p><a <?php if($page == 'about'){ 
                 echo 'class="active"';}?> href="<?= $linkpath ?>about.php">About</a></p>
     </nav>
-    <nav id="dropbar">
+    <nav id="dropbar" onload="setActive();">
 	  <ul>
 	    <li><a href="<?= $linkpath ?>">Home</a></li>
 	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Beginner &#9660;</a>
