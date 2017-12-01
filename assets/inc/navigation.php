@@ -14,8 +14,8 @@
                 <a onclick="getId(this); openOrClose();" id="home-section" <?php if($page == 'home'){  echo 'class="active"';}?> href="#">Home</a>
                 <div class="float-container">
                     <a class="subnav1" href="<?= $linkpath ?>index.php">Main Page</a>
-                    <a class="subnav1" href="<?= $linkpath ?>beginner/commandline.php">The Command Line</a>
                     <a class="subnav1" href="<?= $linkpath ?>beginner/introduction.php">Introduction</a>
+                    <a class="subnav1" href="<?= $linkpath ?>beginner/commandline.php">The Command Line</a>
                     <a class="subnav1" href="<?= $linkpath ?>beginner/commands.php">Basic Commands</a>
                 </div>
             </p><!-- end <div class="sub-navlist"> -->
