@@ -16,7 +16,7 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
     if(success){
         modal.style.display = "none";
-        window.location = "certificate.html";
+        window.location = "certificate.php";
     }
     else{
         modal.style.display = "none";
@@ -29,7 +29,7 @@ window.onclick = function(event) {
     if (event.target == modal) {
         if(success){
         modal.style.display = "none";
-        window.location = "certificate.html";
+        window.location = "certificate.php";
         }
         else{
             modal.style.display = "none";
