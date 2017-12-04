@@ -102,12 +102,9 @@ body {
         display: none;
     }
     .active{
-        background-color: black;
-    }
-    .active2{
         background-color: #00BB00;
     }
-    .active3{
+    .active2{
         color: #00BB00;
     }
     .subnav1, .subnav2, .subnav3{
