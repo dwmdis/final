@@ -10,6 +10,7 @@
 <?php include "assets/inc/navigation.php" ?>
   <main>
     <div class="content" id="home"><h1>VIable</h1>
+        <p><b>user@localhost~:$</b> $page = beginner/<?php echo $page ?>.php</p>
         <p><b>user@localhost~:$</b> $page = <?php echo $page ?></p>
         <p>
 	        <b>user@localhost~:$</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
