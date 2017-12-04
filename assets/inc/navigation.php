@@ -57,14 +57,14 @@
             <a href="<?= $linkpath ?>beginner/commands.php" <?php if($page == 'commands'){ echo 'class="active"';} ?>>Basic Commands</a>
 	      </div>
 	    </li>
-          <li class="dropdown"><a onclick="setActive(this);" href="javascript:void(0)" class="dropbtn">Intermediate <span <?php if($page == 'intermediate' || $page == 'modal' || $page == 'modes'){ echo 'class="active2"';} ?>>&#9660;</span></a>
+          <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Intermediate <span <?php if($page == 'intermediate' || $page == 'modal' || $page == 'modes'){ echo 'class="active2"';} ?>>&#9660;</span></a>
 	      <div class="dropdown-content" id="intermediate">
 	        <a href="<?= $linkpath ?>intermediate/intermediate.php" <?php if($page == 'intermediate'){ echo 'class="active"';} ?>>Intermediate Home</a>
             <a href="<?= $linkpath ?>intermediate/modal.php" <?php if($page == 'modal'){ echo 'class="active"';} ?>>Modal Editing</a>
             <a href="<?= $linkpath ?>intermediate/modes.php" <?php if($page == 'modes'){ echo 'class="active"';} ?>>Vi Modes</a>
 	      </div>
 	    </li>
-          <li class="dropdown"><a onclick="setActive(this);" href="javascript:void(0)" class="dropbtn">Advanced <span <?php if($page == 'advanced' || $page == 'plugins' || $page == 'review'){ echo 'class="active2"';} ?>>&#9660;</span></a>
+          <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Advanced <span <?php if($page == 'advanced' || $page == 'plugins' || $page == 'review'){ echo 'class="active2"';} ?>>&#9660;</span></a>
 	      <div class="dropdown-content" id="advanced">
 	        <a href="<?= $linkpath ?>advanced/advanced.php" <?php if($page == 'advanced'){ echo 'class="active"';} ?>>Advanced Home</a>
             <a href="<?= $linkpath ?>advanced/plugins.php" <?php if($page == 'plugins'){ echo 'class="active"';} ?>>Plugins</a>
