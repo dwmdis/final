@@ -12,6 +12,7 @@
     <script src="assets/scripts/answerKey.js"></script>
   <main>
       <div class="content" id="home">
+          <p><b>user@localhost~:$</b> $page = <?php echo $page ?>.php</p>
         <h1>Vi Quiz: How VIable are you?</h1>
         <form method="post" action="certificate.php" id="quizform">
             <p>
