@@ -53,7 +53,7 @@
           <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Beginner <span <?php if($page == 'introduction' || $page == 'commands' || $page == 'command-line'){ echo 'class="active2"';} ?>>&#9660;</span></a>
 	      <div class="dropdown-content" id="beginner">
             <a href="<?= $linkpath ?>beginner/introduction.php" <?php if($page == 'introduction'){ echo 'class="active"';} ?>>Introduction</a>
-            <a href="<?= $linkpath ?>beginner/commandline.php" <?php if($page == 'commandline'){ echo 'class="active"';} ?>>The Command Line</a>
+            <a href="<?= $linkpath ?>beginner/commandline.php" <?php if($page == 'command-line'){ echo 'class="active"';} ?>>The Command Line</a>
             <a href="<?= $linkpath ?>beginner/commands.php" <?php if($page == 'commands'){ echo 'class="active"';} ?>>Basic Commands</a>
 	      </div>
 	    </li>
