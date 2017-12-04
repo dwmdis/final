@@ -104,6 +104,12 @@ body {
     .active{
         background-color: black;
     }
+    .active2{
+        background-color: #00BB00;
+    }
+    .active3{
+        color: #00BB00;
+    }
     .subnav1, .subnav2, .subnav3{
         display: none;
         margin-left: 50px;

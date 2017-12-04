@@ -49,12 +49,12 @@
     </nav>
     <nav id="dropbar" onload="setActive();">
 	  <ul>
-	    <li><a href="<?= $linkpath ?>">Home</a></li>
-	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Beginner &#9660;</a>
+	    <li><a href="<?= $linkpath ?>" <?php if($page == 'home'){ echo 'class="active"';} ?>>Home</a></li>
+          <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Beginner <span <?php if($page == 'introduction' || $page == 'commands' || $page == 'command-line'){ echo 'class="active3"';} ?>>&#9660;</span></a>
 	      <div class="dropdown-content" id="beginner">
-            <a href="<?= $linkpath ?>beginner/introduction.php">Introduction</a>
-            <a href="<?= $linkpath ?>beginner/commandline.php">The Command Line</a>
-            <a href="<?= $linkpath ?>beginner/commands.php">Basic Commands</a>
+            <a href="<?= $linkpath ?>beginner/introduction.php" <?php if($page == 'introduction'){ echo 'class="active2"';} ?>>Introduction</a>
+            <a href="<?= $linkpath ?>beginner/commandline.php" <?php if($page == 'commandline'){ echo 'class="active2"';} ?>>The Command Line</a>
+            <a href="<?= $linkpath ?>beginner/commands.php" <?php if($page == 'commands'){ echo 'class="active2"';} ?>>Basic Commands</a>
 	      </div>
 	    </li>
 	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Intermediate &#9660;</a>

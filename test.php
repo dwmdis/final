@@ -5,6 +5,7 @@
     $relpath= ""; $title="Vi|Test of Skill"; $page="test"; $imgpath="http://serenity.ist.rit.edu/~iste240t04/240/final/assets/media/images/";
 ?>
 <?php include "assets/inc/head.php" ?>
+<link type="text/css" href="assets/scripts/testmodal.css" rel="stylesheet">
 <!-- <head> went here -->
 <body>
 <?php include "assets/inc/navigation.php" ?>
@@ -12,7 +13,7 @@
   <main>
       <div class="content" id="home">
         <h1>Vi Quiz: How VIable are you?</h1>
-        <form method="post" action="certificate.html" id="quizform">
+        <form method="post" action="certficate.php" id="quizform">
             <p>
                 <span>1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper augue a arcu finibus, ut euismod mi porttitor. Aliquam sit:<br/></span>
                 <label for="q1a1">
@@ -114,8 +115,20 @@
             </p>
     
         </form>
-      </div>
->>>>>>> origin/Development
+        <!-- Trigger/Open The Modal -->
+         <button id="myBtn">Open Modal</button>
+
+        <!-- The Modal -->
+         <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>test test</p>
+             </div>
+         </div>
+    <script src="assets/scripts/successFailModal.js"></script>
+    </div>
   </main>
   <?php include "assets/inc/footer.php" ?>
 </body>
