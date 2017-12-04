@@ -6,4 +6,6 @@ function setActive() {
 			active.className = 'active';
 		}
 	}
+	ele.className = 'highlight';
+	active = ele;	
 }

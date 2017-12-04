@@ -47,7 +47,7 @@
             <p><a <?php if($page == 'about'){ 
                 echo 'class="active"';}?> href="<?= $linkpath ?>about.php">About</a></p>
     </nav>
-    <nav id="dropbar" onload="setActive();">
+    <nav id="dropbar">
 	  <ul>
 	    <li><a href="<?= $linkpath ?>" <?php if($page == 'home'){ echo 'class="active"';} ?>>Home</a></li>
           <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Beginner <span <?php if($page == 'introduction' || $page == 'commands' || $page == 'command-line'){ echo 'class="active3"';} ?>>&#9660;</span></a>
@@ -57,24 +57,24 @@
             <a href="<?= $linkpath ?>beginner/commands.php" <?php if($page == 'commands'){ echo 'class="active2"';} ?>>Basic Commands</a>
 	      </div>
 	    </li>
-	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Intermediate &#9660;</a>
+	    <li class="dropdown"><a onclick="setActive(this);" href="javascript:void(0)" class="dropbtn">Intermediate &#9660;</a>
 	      <div class="dropdown-content" id="intermediate">
 	        <a href="<?= $linkpath ?>intermediate/intermediate.php">Intermediate Home</a>
             <a href="<?= $linkpath ?>intermediate/modal.php">Modal Editing</a>
             <a href="<?= $linkpath ?>intermediate/modes.php">Vi Modes</a>
 	      </div>
 	    </li>
-	    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Advanced &#9660;</a>
+	    <li class="dropdown"><a onclick="setActive(this);" href="javascript:void(0)" class="dropbtn">Advanced &#9660;</a>
 	      <div class="dropdown-content" id="advanced">
 	        <a href="<?= $linkpath ?>advanced/advanced.php">Advanced Home</a>
             <a href="<?= $linkpath ?>advanced/plugins.php">Plugins</a>
             <a href="<?= $linkpath ?>advanced/review.php">Command Refresher</a>
 	      </div>
 	    </li>
-          <li class="dropdown"><a href="<?= $linkpath ?>test.php">Test of Skill</a></li>
-          <li class="dropdown"><a href="<?= $linkpath ?>glossary.php">Glossary</a></li>
-          <li class="dropdown"><a href="<?= $linkpath ?>resources.php">Resources</a></li>
-          <li class="dropdown"><a href="<?= $linkpath ?>about.php">About</a></li>
+          <li class="dropdown"><a onclick="setActive(this);" href="<?= $linkpath ?>test.php">Test of Skill</a></li>
+          <li class="dropdown"><a onclick="setActive(this);" href="<?= $linkpath ?>glossary.php">Glossary</a></li>
+          <li class="dropdown"><a onclick="setActive(this);" href="<?= $linkpath ?>resources.php">Resources</a></li>
+          <li class="dropdown"><a onclick="setActive(this);" href="<?= $linkpath ?>about.php">About</a></li>
           <form id="searchbox">
         <script src="<?= $relpath?>assets/scripts/search.js"></script>
         <input type="search" placeholder="Search this site.." id="searchb" />
