@@ -11,7 +11,7 @@
     <div class="content" id="home">
     	<img id="logo" src="assets/images/logo-final.png">
     	<h1>VIable</h1>
-        <p>page = "<?php echo $page ?>"</p>
+        <p><b>user@localhost~:$</b> $page = "<?php echo $page ?>"</p>
         <p>
 	        <b>user@localhost~:$</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 	        Morbi cursus ultrices nibh a porta. 

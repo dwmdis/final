@@ -10,7 +10,7 @@
 <?php include "../assets/inc/navigation.php" ?>
   <main>
     <div class="content" id="home"><h1>VIable</h1>
-        <p>page = "<?php echo $page ?>"</p>
+        <p><b>user@localhost~:$</b> $page = "<?php echo $page ?>"</p>
         <p>
 	        <b>user@localhost~:$</b>
 	        Vi is a text-editor originally created to be used with the Unix operating system. Vi was developed by Bill joy in 1976. It was originally created to be the full screen visual mode of a different editor, ex.<br/>
