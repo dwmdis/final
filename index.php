@@ -13,20 +13,15 @@
     	<h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = <?php echo $page ?>.php</p>
         <p>
-	        <b>user@localhost~:$</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-	        Morbi cursus ultrices nibh a porta. 
-	        Aenean rhoncus dolor est, sit amet auctor sem ullamcorper eget. 
-	        Nulla egestas mi mauris, ut malesuada mi ultrices sit amet. 
-	        Sed posuere consectetur sapien non dignissim. 
-	        Vestibulum dictum purus et nisl varius, ac aliquet metus laoreet. 
-	        Ut porttitor semper ultricies. 
-	        Pellentesque aliquet elit sit amet rutrum finibus. 
-	        Integer ornare libero sit amet accumsan auctor. 
-	        Vestibulum placerat elit lorem, nec dictum eros molestie at. 
-	        Suspendisse quis eros metus. Sed dictum vitae risus non posuere. 
-	        Quisque ultricies arcu eu luctus dignissim. 
-	        Morbi et fringilla nunc. Duis interdum vestibulum nulla et ullamcorper.
-	        Sed ullamcorper molestie ornare.
+	        <b>user@localhost:~/home/history$</b> The <b>vi</b> editor was developed
+	        by Bill Joy in 1976. Joy was a graduate student at University of 
+	        California at Berkeley, and later founded Sun Microsystems. Before vi, however,
+	        came a text editor called "ed". Ed was the original Unix text editor 
+	        of choice (or lack thereof). Ed was line oriented and used from 
+	        printing terminals. Vi was developed to provide a <b>v</b>isual <b>i</b>nterface
+	        to text editing; in effect, allow text to be viewed on a full screen rather than
+	        just a single line at a time.<br>
+	        <!-- more history here -->
         </p>
     </div>
   </main>
