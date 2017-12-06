@@ -23,11 +23,12 @@
                 $row = mysqli_fetch_assoc($result);
                 $page_name = $row["PageName"];
                 $section = $row["Section"];
-                
+                echo "page_name = " + $page_name;
+                echo "section = " + $section;
                 // have to link to page using page name
                 // header("Location: http://serenity.ist.rit.edu/~iste240t04/240/final/'$section'/'$page_name'");
                 // die();
-                echo "<script> window.location = 'http://serenity.ist.rit.edu/~iste240t04/240/final/" . $section . "/" . $page_name . "';</script>";
+               echo "<script> window.location = 'http://serenity.ist.rit.edu/~iste240t04/240/final/" . $section . "/" . $page_name . "';</script>";
             }
         
         }    

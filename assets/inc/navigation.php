@@ -76,9 +76,16 @@
           <li class="dropdown"><a <?php if($page == 'resources'){ echo 'class="active"';} ?> href="<?= $linkpath ?>resources.php">Resources</a></li>
           <li class="dropdown"><a <?php if($page == 'about'){ echo 'class="active"';} ?> href="<?= $linkpath ?>about.php">About</a></li>
           <form id="searchbox" method="post">
-        <script src="<?= $relpath?>assets/scripts/search.js"></script>
-        <input type="search" placeholder="Search this site.." id="searchb" name="search_input"/>
-        <input type="button" value="Search" name="searchbutton" class="btn-search" onclick="search();" />
+        <script src="<?= $relpath?>assets/scripts/search2.js"></script>
+        <input type="text" placeholder="Search this site.." id="searchb" name="search_input"/>
+        <input type="button" value="Search" name="searchbutton" class="btn-search" onclick="search()" />
     </form>
 	  </ul>
+        <!-- search modal stuff -->
+        <div id="searchModal" class="modal">
+            <!-- Modal content -->
+            <div class="smodal-content" id="smodalContent"></div>
+        </div>
+        <script></script>
+        <!-- end of search modal stuff -->
   </nav>

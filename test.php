@@ -73,7 +73,6 @@
 
         <!-- The Modal -->
          <div id="myModal" class="modal">
-
             <!-- Modal content -->
             <div class="modal-content" id="modalContent">
                 <span class="close">&times;</span>
