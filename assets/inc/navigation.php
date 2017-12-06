@@ -78,7 +78,7 @@
           <form id="searchbox" method="post">
         <script src="<?= $relpath?>assets/scripts/search2.js"></script>
         <input type="text" placeholder="Search this site.." id="searchb" name="search_input"/>
-        <input type="button" value="Search" name="searchbutton" class="btn-search" onclick="search()" />
+        <input type="button" value="Search" name="searchbutton" class="btn-search" onchange="search()" />
     </form>
 	  </ul>
         <!-- search modal stuff -->
