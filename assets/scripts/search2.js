@@ -37,7 +37,7 @@ function search(){
     if(!found){
         document.getElementById("searchModal").style.display = "block";
         document.getElementById("searchModal").innerHTML = "<p id='modal-insert'>Sorry, we couldn't find that page!<br/>Try searching for a page title.</p>";
-        // event.preventDefault();
+        event.preventDefault();
     }
 }
 // When the user clicks anywhere outside of the modal, close it
