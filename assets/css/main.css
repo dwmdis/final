@@ -225,8 +225,9 @@ li.dropdown {
 
 .content p {
   padding: 12px;
-  margin: 0 20px 0 0;
+  margin: 4px;
   font-size: 14px;
+  letter-spacing: 1px;
   font-family: Helvetica, sans-serif;
 }
 
@@ -241,10 +242,12 @@ h1 {
 	width: 20%;
 	height: 30%;
 	float: right;
+	padding: 10px 20px;
 }
 
 .content b {
   color: #00bb00;
+  font-family: "Courier New", monospace;
 }
 
 /* Footer CSS */
