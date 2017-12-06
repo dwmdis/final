@@ -14,8 +14,9 @@ var tag_map = {
     quiz: "test.php",
     test: "test.php",
     certificate: "test.php",
+    resources: "resources.php",
+    help: "resources.php",
     glossary: "glossary.php",
-    help: "glossary.php",
     about: "about.php"
 };
 
@@ -32,7 +33,7 @@ function search(){
         }
         else{
             document.getElementById("searchModal").style.display = "block";
-            document.getElementById("searchModal").innerHTML = "<p id='modal-insert'>Sorry, we couldn't find that page!</p>";
+            document.getElementById("searchModal").innerHTML = "<p id='modal-insert'>Sorry, we couldn't find that page!<br/>Try searching for a page title.</p>";
         }
     }
 }
