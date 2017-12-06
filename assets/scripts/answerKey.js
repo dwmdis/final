@@ -28,6 +28,7 @@ function check(){
         modal.innerHTML = "<p id='modal-insert'>Congrats!<br/>You got " + tally + "/6!</p>";
         event.preventDefault();
         success = true;
+        tally = 0;
         
     }
     else{
@@ -35,6 +36,7 @@ function check(){
         modal.style.display = "block";
         modal.innerHTML = "<p id='modal-insert'>Sorry!<br/>You only got " + tally + "/6.</p>";
         event.preventDefault();
+        tally = 0;
     }
 
 }
