@@ -17,7 +17,7 @@
 
 	        There are many command-line interpreters to use. Two of the most popular on windows devices are the Command Prompt and Windows PowerShell. The command-line interface is the Terminal. <br/>
 
-	        Once you have the command-line open, you can start using VI! First, you need to navigate to the directory the file you wish to edit is. In orderto see where you currently are use pwd. In order to enter a directory, use: cd <i>directory name</i>. Finally to pull up the file in Vi, use: vi <i>filename</i>. You should now be all set to start using vi, navigate to the commands tab to learn more about how to edit with vi.
+	        Once you have the command-line open, you can start using VI! First, you need to navigate to the directory the file you wish to edit is. In order to see where you currently are use pwd. In order to enter a directory, use: cd <i>directory name</i>. Finally to pull up the file in Vi, use: vi <i>filename</i>. You should now be all set to start using vi, navigate to the commands tab to learn more about how to edit with vi.
 
 
         </p>
