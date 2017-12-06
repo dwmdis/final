@@ -5,6 +5,7 @@
 }
 body {
 	overflow-y: scroll;
+	background-color: rgba(0,0,0,0.15);
 }
 /* Mobile view */
 @media screen and (min-width: 300px) and (max-width: 799px) {
@@ -213,10 +214,10 @@ li.dropdown {
 /* Content CSS */
 .content {
   display: block;
-  max-width: 75%;
+  max-width: 70%;
   margin: 50px auto;
   padding: 5px;
-  box-shadow: 2px 1px 3px black;
+  box-shadow: 2px 3px 4px #333;
   border-radius: 4px;
   background-color: #444;
   color: white;
@@ -225,7 +226,7 @@ li.dropdown {
 
 .content p {
   padding: 12px;
-  margin: 4px;
+  margin: 2px;
   font-size: 14px;
   letter-spacing: 1px;
   font-family: Helvetica, sans-serif;
@@ -233,9 +234,9 @@ li.dropdown {
 
 h1 {
   font-weight: normal;
-  font-family: Monospace;
-  font-size: 30px;
-  padding: 5px;
+  font-family: "Courier New", monospace;
+  font-size: 48px;
+  padding: 5px 12px;
 }
 
 #logo {
@@ -268,10 +269,12 @@ h1 {
 	margin: 10px auto;
 }
 
-span {
+.content span {
 	display: inline-block;
 	padding: 2px;
 	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 0;	
 }
 
 label {
