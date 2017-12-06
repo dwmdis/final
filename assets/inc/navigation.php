@@ -78,7 +78,7 @@
           <form id="searchbox" method="post">
         <script src="<?= $relpath?>assets/scripts/search2.js"></script>
         <input type="text" placeholder="Search this site.." id="searchb" name="search_input" onkeydown ="if(event.keyCode == 13) document.getElementById('searchbutton').click();"/>
-        <input type="submit" value="Search" id="searchbutton" class="btn-search" onclick="search();"/>
+        <input type="button" value="Search" id="searchbutton" class="btn-search" onclick="search();"/>
     </form>
 	  </ul>
         <!-- search modal stuff -->
