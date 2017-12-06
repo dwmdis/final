@@ -75,10 +75,10 @@
           <li class="dropdown"><a <?php if($page == 'glossary'){ echo 'class="active"';} ?> href="<?= $linkpath ?>glossary.php">Glossary</a></li>
           <li class="dropdown"><a <?php if($page == 'resources'){ echo 'class="active"';} ?> href="<?= $linkpath ?>resources.php">Resources</a></li>
           <li class="dropdown"><a <?php if($page == 'about'){ echo 'class="active"';} ?> href="<?= $linkpath ?>about.php">About</a></li>
-          <form id="searchbox">
+          <form id="searchbox" method="post">
         <script src="<?= $relpath?>assets/scripts/search.js"></script>
-        <input type="search" placeholder="Search this site.." id="searchb" />
-        <input type="button" value="Search" class="btn-search" onclick="search();" />
+        <input type="search" placeholder="Search this site.." id="searchb" name="search_input"/>
+        <input type="button" value="Search" name="searchbutton" class="btn-search" onclick="search();" />
     </form>
 	  </ul>
   </nav>
