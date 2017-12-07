@@ -25,7 +25,6 @@
                     <a class="subnav2" href="<?= $linkpath ?>intermediate/intermediate.php">Intermediate Home</a>
                     <a class="subnav2" href="<?= $linkpath ?>intermediate/modal.php">Intermediate Commands</a>
                     <a class="subnav2" href="<?= $linkpath ?>intermediate/modes.php">Vi Modes</a>
-                    <a class="subnav2" href="<?= $linkpath ?>intermediate/modes.php">Placeholder</a>
                 </div>
             </p><!-- END <div class="sub-navlist> -->
             <p class="sub-navlist">
@@ -35,7 +34,6 @@
                     <a class="subnav3" href="<?= $linkpath ?>advanced/advanced.php">Advanced Home</a>
                     <a class="subnav3" href="<?= $linkpath ?>advanced/plugins.php">Plugins</a>
                     <a class="subnav3" href="<?= $linkpath ?>advanced/review.php">Command Refresher</a>
-                    <a class="subnav3" href="<?= $linkpath ?>intermediate/modes.php">Placeholder</a>
                 </div>
             </p><!-- END <div class="sub-navlist> -->
             <p><a <?php if($page == 'test'){ 
