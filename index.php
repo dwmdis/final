@@ -9,7 +9,7 @@
 <?php include "assets/inc/navigation.php" ?>
   <main>
     <div class="content" id="home">
-    	<img id="logo" src="assets/images/logo-final.png alt= logo">
+    	<img id="logo" src="assets/images/logo-final.png" alt="logo">
     	<h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = <?php echo $page ?>.php</p>
         <p>
