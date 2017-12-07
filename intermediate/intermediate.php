@@ -9,7 +9,7 @@
 <?php include "../assets/inc/navigation.php" ?>
   <main>
     <div class="content" id="home"><h1>VIable</h1>
-        <p>page = "<?php echo $page ?>"</p>
+        <p><b>user@localhost~:$</b>$page = intermediate/<?php echo $page ?>.php</p>
         <p>
 	        <b>user@localhost~:$</b> 
 	        <p>
