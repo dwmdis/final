@@ -11,7 +11,7 @@
   <main>
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = <?php echo $page ?>.php</p>
-        <p>
+        <div>
 	        <b>user@localhost~:$</b> About our project.
 	        <p>
 		        	This tutorial site was created for a group project in ISTE-240. This group was made up of:<br/>
@@ -24,7 +24,7 @@
           <p>
             We went above with our search function and making a certificate for the user after they complete the text. We differed from our design document in a few ways. We changed the navigation so that the glossary, resources, and test of skills are on the global navigation instead of the advanced group local navigation. We added landing pages for both the intermediate and advanced group. We also added in more advanced commands in the advanced section for users.
           </p>
-        </p>
+        </div>
     </div>
   </main>
   <?php include "assets/inc/footer.php" ?>
