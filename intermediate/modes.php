@@ -12,20 +12,17 @@
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = intermediate/<?php echo $page ?>.php</p>
         <p>
-	        <b>user@localhost~:$</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-	        Morbi cursus ultrices nibh a porta. 
-	        Aenean rhoncus dolor est, sit amet auctor sem ullamcorper eget. 
-	        Nulla egestas mi mauris, ut malesuada mi ultrices sit amet. 
-	        Sed posuere consectetur sapien non dignissim. 
-	        Vestibulum dictum purus et nisl varius, ac aliquet metus laoreet. 
-	        Ut porttitor semper ultricies. 
-	        Pellentesque aliquet elit sit amet rutrum finibus. 
-	        Integer ornare libero sit amet accumsan auctor. 
-	        Vestibulum placerat elit lorem, nec dictum eros molestie at. 
-	        Suspendisse quis eros metus. Sed dictum vitae risus non posuere. 
-	        Quisque ultricies arcu eu luctus dignissim. 
-	        Morbi et fringilla nunc. Duis interdum vestibulum nulla et ullamcorper.
-	        Sed ullamcorper molestie ornare.
+	        <b>user@localhost~:$</b>There are two main modes of vi:
+	        <ul>
+	        	<li>Command Mode</li>
+	        	<p>When you first enter vi, you are in command mode, and cannot enter text until you change modes. You must be in command mode to enter any command you wish to use.</p>
+
+	        	<li>Insert Mode</li>
+	        	<p>You can switch to text input mode by hitting the i key (for insert), hit ESC or CTRL whenever you want to switch from Insert mode to command mode. In insert mode you can input text into the file you are editing and navigate using the arrow keys.</p>
+
+	        	
+
+	        </ul>
         </p>
     </div>
   </main>
