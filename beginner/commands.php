@@ -51,7 +51,7 @@
 	        	<dt>l</dt>
 	        	<dd>Move Right</dd>
 	        </dl>
-
+	        <p>You have to be in command mode to enter in commands. If you are in input mode, it will be taken as text. If you are in input mode, press the esc key to switch to command mode. You will learn more about this in the next section.</p>
         </p>
     </div>
   </main>
