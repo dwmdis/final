@@ -319,7 +319,7 @@ dt, dd {
 	padding: 1px;
 }
 
-.resourcelink a {
+.resourcelink {
     color: white;
     font-family: "Courier New", Monospace;
     text-decoration: none;
