@@ -25,6 +25,24 @@
 
 	        	<dt>^l</dt>
 	        	<dd>Redraw screen</dd>
+
+	        	<dt>/<i>string</i></dt>
+	        	<dd>Search forward for <i>string</i></dd>
+
+	        	<dt>?<i>string</i></dt>
+	        	<dd>Search backwards for <i>string</i></dd>
+
+	        	<dt>:y</dt>
+	        	<dd>Yank the current line</dd>
+
+	        	<dt>mc</dt>
+	        	<dd>Set marker c on this line</dd>
+
+	        	<dt>`c</dt>
+	        	<dd>Go to the beginning of marker c line</dd>
+
+	        	<dt>'c</dt>
+	        	<dd>Go to the first non-blank character of marker c</dd>
 	        	
 	        </dl>
 
