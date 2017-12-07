@@ -12,31 +12,11 @@
         <p>page = "<?php echo $page ?>"</p>
         <p>
 	        <b>user@localhost~:$</b> 
-		Here are additional commands that are also helpful : 
-		<dl>
-			<dt>  jump to end of word</dt>
-			<dd>- e </dd>
-			
-			<dt> jump to end of line</dt>
-			<dd>- $</dd>
-			
-			<dt>copy</dt>
-			<dd> -y</dd>
-			
-			<dt>paste </dt>
-			<dd> -p</dd> 
-			
-			There are three different modes:
-			<dt> command mode  </dt>
-			<dd> When you first enter vi, you are in command mode, and cannot enter text until you change modes</dd>
-			<dt>insert mode </dt>
-			<dd>You can switch to Text input mode by hitting the i key (for insert)hit <Esc> or <CTRL 3> whenever you want to switch from Text Input mode to Command mode.</dd>
-			<dt>last line mode </dt>
-			<dd>You can only get to last line mode from command mode, and you get into last line mode by pressing the colon key :</dd>	
-				 
-				
-		
-		
+	        <p>
+	        	At this point you should have a good handle on a few things. You should be able to access your command line and feel comfortable opening your files in vi from the command line. You should know basic navigation and how to save and exit from vi. If you are unsure of how to do any of this, go review the beginner section before moving foreward.
+	        </p>
+	        
+
         </p>
     </div>
   </main>

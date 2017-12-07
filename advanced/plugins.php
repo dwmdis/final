@@ -12,14 +12,12 @@
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = advanced/<?php echo $page ?>.php</p>
         <p>
-	        <b>user@localhost~:$</b>A great way to optimize your experience with vi is to utilize vi plugins. Below you will find some plug-ins you can use, but there are many more to you can use. You should be aware that with some plugins it matters if you are using vi or vim.
+	        <b>user@localhost~:$</b>
+	        A great way to optimize your experience with vi is to utilize vi plugins. Below you will find some plug-ins you can use, but there are many more to you can use.
 
 	        <dl>
 	        	<dt>vim-pencil</dt>
 	        	<dd>This plugin was made to make writing in vim easier and compete with word processors.</dd>
-
-	        	<dt>jellybeans.vim</dt>
-	        	<dd>This plugin changes the color scheme to be more colorful.</dd>
 
 	        	<dt>Syntastic</dt>
 	        	<dd>A syntax checking plugin</dd>
@@ -29,6 +27,13 @@
 
 	        	<dt>vim-test</dt>
 	        	<dd>A plugin for running tests.</dd>
+
+	        	<dt>Vundle</dt>
+	        	<dd>A plugin manager</dd>
+
+	        	<dt>VIm-easymotion</dt>
+	        	<dd>This plugin helps with quick movement around vi.</dd>
+
 
 	        </dl>
 	        
