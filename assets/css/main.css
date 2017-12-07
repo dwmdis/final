@@ -9,7 +9,10 @@ body {
 }
 /* Mobile view */
 @media screen and (min-width: 300px) and (max-width: 799px) {
-	header{
+	#home a{
+        color: #009900;
+    }
+    header{
 	    
 	}
 	#big-logo, #search-box, #dropbar{
