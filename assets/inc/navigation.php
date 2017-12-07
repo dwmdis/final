@@ -6,7 +6,7 @@
     </header>
     <nav id="myMobilenav" class="mobilenav">
             <a id="close-nav" href="#" class="closebtn" onclick="closeNav(); closeSubNav()">&times;</a>
-            <p class="sub-navlist">    
+            <div class="sub-navlist">    
                 <a onclick="getId(this); openOrClose();" id="home-section" <?php if($page == 'home'){  echo 'class="active"';}?> href="#">Home</a>
                 <div class="float-container">
                     <a class="subnav1" href="<?= $linkpath ?>index.php">Main Page</a>
@@ -14,16 +14,16 @@
                     <a class="subnav1" href="<?= $linkpath ?>beginner/commandline.php">The Command Line</a>
                     <a class="subnav1" href="<?= $linkpath ?>beginner/commands.php">Basic Commands</a>
                 </div>
-            </p><!-- end <div class="sub-navlist"> -->
-            <p class="sub-navlist">
+            </div><!-- end <div class="sub-navlist"> -->
+            <div class="sub-navlist">
                 <a onclick="getId(this); openOrClose();" id="intermediate-section" <?php if($page == 'intermediate'){  echo 'class="active"';}?> href="#">Intermediate</a>
                 <div class="float-container">
                     <a class="subnav2" href="<?= $linkpath ?>intermediate/intermediate.php">Intermediate Home</a>
                     <a class="subnav2" href="<?= $linkpath ?>intermediate/modal.php">Intermediate Commands</a>
                     <a class="subnav2" href="<?= $linkpath ?>intermediate/modes.php">Vi Modes</a>
                 </div>
-            </p><!-- END <div class="sub-navlist> -->
-            <p class="sub-navlist">
+            </div><!-- END <div class="sub-navlist> -->
+            <div class="sub-navlist">
                 <a onclick="getId(this); openOrClose();" id="advanced-section" <?php if($page == 'advanced'){ 
                 echo 'class="active"';}?> href="#">Advanced</a>
                 <div class="float-container">
@@ -31,7 +31,7 @@
                     <a class="subnav3" href="<?= $linkpath ?>advanced/plugins.php">Plugins</a>
                     <a class="subnav3" href="<?= $linkpath ?>advanced/review.php">Command Refresher</a>
                 </div>
-            </p><!-- END <div class="sub-navlist> -->
+            </div><!-- END <div class="sub-navlist> -->
             <p><a <?php if($page == 'test'){ 
                 echo 'class="active"';}?> href="<?= $linkpath ?>test.php">Test of Skill</a></p>
             <p><a <?php if($page == 'glossary'){ 
