@@ -13,16 +13,13 @@
         <p><b>user@localhost~:$</b> $page = intermediate/<?php echo $page ?>.php</p>
         <p>
 	        <b>user@localhost~:$</b>There are two main modes of vi:<br/>
-	        
+            
+          </p>
 	        	Command Mode
-	        	<p>When you first enter vi, you are in command mode, and cannot enter text until you change modes. You must be in command mode to enter any command you wish to use.</p>
+	        	<p>When you first enter vi, you are in command mode, and cannot enter text until you change modes. You must be in command mode to enter any command you wish to use.</p><br/>
 
 	        	Insert Mode
 	        	<p>You can switch to text input mode by hitting the i key (for insert), hit ESC or CTRL whenever you want to switch from Insert mode to command mode. In insert mode you can input text into the file you are editing and navigate using the arrow keys.</p>
-
-	        	
-
-	        </ul>
         </p>
     </div>
   </main>
