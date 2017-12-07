@@ -20,8 +20,10 @@
 					Ryan Lowrie – Interaction Design<br/>
 					Klahr Clark – Information Design/Content<br/>
 					Nakeia Barlow – Artist/Content <br/>
-
 	        </p>
+          <p>
+            We went above with our search function and making a certificate for the user after they complete the text. We differed from our design document in a few ways. We changed the navigation so that the glossary, resources, and test of skills are on the global navigation instead of the advanced group local navigation. We added landing pages for both the intermediate and advanced group. We also added in more advanced commands in the advanced section for users.
+          </p>
         </p>
     </div>
   </main>
