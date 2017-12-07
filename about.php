@@ -12,7 +12,7 @@
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = <?php echo $page ?>.php</p>
         <div>
-	        <b>user@localhost~:$</b> About our project.
+            <p><b>user@localhost~:$</b> About our project.</p>
 	        <p>
 		        	This tutorial site was created for a group project in ISTE-240. This group was made up of:<br/>
 					Dale Moore – Project Leader/Programmer<br/>

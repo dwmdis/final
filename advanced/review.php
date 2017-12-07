@@ -12,7 +12,7 @@
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = advanced/<?php echo $page ?>.php</p>
         <div>
-	        <b>user@localhost~:$</b>Here are some more advanced commands to review:
+	        <p>><b>user@localhost~:$</b>Here are some more advanced commands to review:</p>
 	        <dl>
 	        	<dt>n</dt>
 	        	<dd>Repeate last search</dd>
