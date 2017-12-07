@@ -23,9 +23,4 @@
   </main>
   <?php include "../assets/inc/footer.php" ?>
 </body>
-
-</html>
-  </main>
-</body>
-
 </html>

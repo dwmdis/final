@@ -5,7 +5,6 @@
     $relpath= ""; $title="Vi|Test of Skill"; $page="test"; $imgpath="http://serenity.ist.rit.edu/~iste240t04/240/final/assets/media/images/";
 ?>
 <?php include "assets/inc/head.php" ?>
-<link type="text/css" href="assets/scripts/testmodal.css" rel="stylesheet">
 <!-- <head> went here -->
 <body>
 <?php include "assets/inc/navigation.php" ?>
