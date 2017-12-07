@@ -11,7 +11,7 @@
   <main>
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = beginner/<?php echo $page ?>.php</p>
-        <p>
+        <div>
 	        <b>user@localhost~:$</b> Here are some helpful sites to check out.
 	        <dl>
 	        	<dt><a href="https://vimawesome.com/" class="resourcelink">vimawesome</a></dt>
@@ -29,9 +29,7 @@
 	        	<dt><a href="https://www.linux.com/learn/vim-101-beginners-guide-vim" class="resourcelink">linux.com's vim 101</a></dt>
 	        	<dd>More about what vim is and why to use it.</dd>
 	        </dl>
-
-
-        </p>
+        </div>
     </div>
   </main>
   <?php include "assets/inc/footer.php" ?>

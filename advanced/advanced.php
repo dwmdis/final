@@ -11,14 +11,14 @@
   <main>
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = advanced/<?php echo $page ?>.php</p>
-        <p>
+        <div>
 	        <b>user@localhost~:$</b> 
 	        <p>
 	        	At this point you should have gone through the other two sections and feel completely comfortable with vi. Before moving on to the advanced topics you should know all the basic commands outlined before and be able to switch between the two modes of vi. If you feel unsure of how to do any of these, go back and review before moving on in the tutorial. 
 	        </p>
 	        
 
-        </p>
+        </div>
     </div>
   </main>
   <?php include "../assets/inc/footer.php" ?>

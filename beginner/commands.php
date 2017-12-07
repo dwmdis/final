@@ -11,7 +11,7 @@
   <main>
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = beginner/<?php echo $page ?>.php</p>
-        <p>
+        <div>
 	        <b>user@localhost~:$</b> 
 	        Here are some of the first commands that you sould know for vim:
 	        <dl>
@@ -52,7 +52,7 @@
 	        	<dd>Move Right</dd>
 	        </dl>
 	        <p>You have to be in command mode to enter in commands. If you are in input mode, it will be taken as text. If you are in input mode, press the esc key to switch to command mode. You will learn more about this in the next section.</p>
-        </p>
+        </div>
     </div>
   </main>
   <?php include "../assets/inc/footer.php" ?>

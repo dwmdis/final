@@ -11,7 +11,7 @@
   <main>
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = <?php echo $page ?>.php</p>
-        <p>
+        <div>
 	        <b>user@localhost~:$</b> Here are all the commands we have listed in the site:
 	        <dl>
 	        	<dt>vi <i>filename</i></dt>
@@ -108,7 +108,7 @@
 	        	<dd>Go to the first non-blank character of marker c</dd>
 	        </dl>
 
-        </p>
+        </div>
     </div>
   </main>
   <?php include "assets/inc/footer.php" ?>

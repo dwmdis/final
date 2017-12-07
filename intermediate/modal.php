@@ -11,7 +11,7 @@
   <main>
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = intermediate/<?php echo $page ?>.php</p>
-        <p>
+        <div>
 	        <b>user@localhost~:$</b> Here are more navigation commands that are helpful as you become more familiar with vi:
 
 	        <dl>
@@ -46,7 +46,7 @@
 	        	<dd>undo</dd>
 
 	        </dl>
-        </p>
+        </div>
     </div>
   </main>
   <?php include "../assets/inc/footer.php" ?>

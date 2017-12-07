@@ -11,7 +11,7 @@
   <main>
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = advanced/<?php echo $page ?>.php</p>
-        <p>
+        <div>
 	        <b>user@localhost~:$</b>Here are some more advanced commands to review:
 	        <dl>
 	        	<dt>n</dt>
@@ -46,7 +46,7 @@
 	        	
 	        </dl>
 
-        </p>
+        </div>
     </div>
   </main>
   <?php include "../assets/inc/footer.php" ?>

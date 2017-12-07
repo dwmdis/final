@@ -11,7 +11,7 @@
   <main>
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = beginner/<?php echo $page ?>.php</p>
-        <p>
+        <div>
 	        <b>user@localhost~:$</b>
 	       <p>
             Vi is the default text editor in Unix, and Linux. It is fount in almost every system of the type. Since it is almost always there, it is good to have some basic knowledge of vi if you ever must use it, even if it is not your usual editor. Vi is not intuitive and can be difficult to get the hang of, hopefully after using this site you will be ready to start using the editor. Remember practice makes perfect, it will become easier to use after time.
@@ -35,7 +35,7 @@
          </p>     
           	        
 
-        </p>
+        </div>
     </div>
   </main>
   <?php include "../assets/inc/footer.php" ?>
