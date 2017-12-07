@@ -23,9 +23,8 @@
                 <a onclick="getId(this); openOrClose();" id="intermediate-section" <?php if($page == 'intermediate'){  echo 'class="active"';}?> href="#">Intermediate</a>
                 <div class="float-container">
                     <a class="subnav2" href="<?= $linkpath ?>intermediate/intermediate.php">Intermediate Home</a>
-                    <a class="subnav2" href="<?= $linkpath ?>intermediate/modal.php">Modal Editing</a>
+                    <a class="subnav2" href="<?= $linkpath ?>intermediate/modal.php">Intermediate Commands</a>
                     <a class="subnav2" href="<?= $linkpath ?>intermediate/modes.php">Vi Modes</a>
-                    <a class="subnav2" href="<?= $linkpath ?>intermediate/modes.php">Placeholder</a>
                 </div>
             </p><!-- END <div class="sub-navlist> -->
             <p class="sub-navlist">
@@ -35,7 +34,6 @@
                     <a class="subnav3" href="<?= $linkpath ?>advanced/advanced.php">Advanced Home</a>
                     <a class="subnav3" href="<?= $linkpath ?>advanced/plugins.php">Plugins</a>
                     <a class="subnav3" href="<?= $linkpath ?>advanced/review.php">Command Refresher</a>
-                    <a class="subnav3" href="<?= $linkpath ?>intermediate/modes.php">Placeholder</a>
                 </div>
             </p><!-- END <div class="sub-navlist> -->
             <p><a <?php if($page == 'test'){ 
@@ -60,7 +58,7 @@
           <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Intermediate <span <?php if($page == 'intermediate' || $page == 'modal' || $page == 'modes'){ echo 'class="active2"';} ?>>&#9660;</span></a>
 	      <div class="dropdown-content" id="intermediate">
 	        <a href="<?= $linkpath ?>intermediate/intermediate.php" <?php if($page == 'intermediate'){ echo 'class="active"';} ?>>Intermediate Home</a>
-            <a href="<?= $linkpath ?>intermediate/modal.php" <?php if($page == 'modal'){ echo 'class="active"';} ?>>Modal Editing</a>
+            <a href="<?= $linkpath ?>intermediate/modal.php" <?php if($page == 'modal'){ echo 'class="active"';} ?>>Intermediate Commands</a>
             <a href="<?= $linkpath ?>intermediate/modes.php" <?php if($page == 'modes'){ echo 'class="active"';} ?>>Vi Modes</a>
 	      </div>
 	    </li>
