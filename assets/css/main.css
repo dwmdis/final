@@ -87,6 +87,9 @@ body {
 }
 /* END OF SIDE NAVIGATION MENU*/
 @media screen and (min-width: 800px){
+    #home a{
+        color: #009900;
+    }
     /* FIXING MOBILE NAV ELEMENTS for WEB VIEW */
     #myMobilenav{
         display: none;
@@ -199,7 +202,7 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover, #home > dt > dd a{
+.dropdown-content a:hover{
   background-color: #777;
 }
 
