@@ -199,7 +199,7 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:hover, #home > dt > dd a{
   background-color: #777;
 }
 
