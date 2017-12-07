@@ -69,12 +69,12 @@
           <li class="dropdown"><a <?php if($page == 'glossary'){ echo 'class="active"';} ?> href="<?= $linkpath ?>glossary.php">Glossary</a></li>
           <li class="dropdown"><a <?php if($page == 'resources'){ echo 'class="active"';} ?> href="<?= $linkpath ?>resources.php">Resources</a></li>
           <li class="dropdown"><a <?php if($page == 'about'){ echo 'class="active"';} ?> href="<?= $linkpath ?>about.php">About</a></li>
+          </ul>
           <form id="searchbox" method="post">
         <script src="<?= $relpath?>assets/scripts/search2.js"></script>
         <input type="text" placeholder="Search this site.." id="searchb" name="search_input" onkeydown ="if(event.keyCode == 13) document.getElementById('searchbutton').click();"/>
         <input type="button" value="Search" id="searchbutton" class="btn-search" onclick="search();"/>
-    </form>
-	  </ul>
+        </form>
         <!-- search modal stuff -->
         <div id="searchModal" class="modal">
             <!-- Modal content -->
