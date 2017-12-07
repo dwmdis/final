@@ -12,8 +12,8 @@
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = beginner/<?php echo $page ?>.php</p>
         <div>
-	        <b>user@localhost~:$</b> 
-	        Here are some of the first commands that you sould know for vim:
+	        <p><b>user@localhost~:$</b> 
+                Here are some of the first commands that you sould know for vim:</p>
 	        <dl>
 	        	<dt>vi <i>filename</i></dt>
 	        	<dd>Open the file for editing</dd>

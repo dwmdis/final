@@ -12,7 +12,7 @@
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = beginner/<?php echo $page ?>.php</p>
         <div>
-	        <b>user@localhost~:$</b>
+            <p><b>user@localhost~:$</b></p>
           <p>
             The command-line is a useful tool for you to use as you become more experienced in programming. To use, all you have to do is enter in a valid command with any parameters. Commands must have correct spelling and syntax in order to work. We are focusing on how to use vi on the command-line to edit code. But first you need to learn how to use the command-line. 
           </p><br/>

@@ -11,7 +11,7 @@
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b>$page = intermediate/<?php echo $page ?>.php</p>
         <div>
-	        <b>user@localhost~:$</b> 
+            <p><b>user@localhost~:$</b></p>
 	        <p>
 	        	At this point you should have a good handle on a few things. You should be able to access your command line and feel comfortable opening your files in vi from the command line. You should know basic navigation and how to save and exit from vi. If you are unsure of how to do any of this, go review the beginner section before moving foreward.
 	        </p>

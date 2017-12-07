@@ -12,7 +12,7 @@
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = intermediate/<?php echo $page ?>.php</p>
         <div>
-	        <b>user@localhost~:$</b> Here are more navigation commands that are helpful as you become more familiar with vi:
+            <p><b>user@localhost~:$</b> Here are more navigation commands that are helpful as you become more familiar with vi:</p>
 
 	        <dl>
 	       		<dt>$</dt>

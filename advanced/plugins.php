@@ -12,8 +12,8 @@
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = advanced/<?php echo $page ?>.php</p>
         <div>
-	        <b>user@localhost~:$</b>
-	        A great way to optimize your experience with vi is to utilize vi plugins. Below you will find some plug-ins you can use, but there are many more to you can use.
+	        <p><b>user@localhost~:$</b>
+	        A great way to optimize your experience with vi is to utilize vi plugins. Below you will find some plug-ins you can use, but there are many more to you can use.</p>
 
 	        <dl>
 	        	<dt>vim-pencil</dt>

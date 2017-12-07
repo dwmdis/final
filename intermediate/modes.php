@@ -11,10 +11,7 @@
   <main>
     <div class="content" id="home"><h1>VIable</h1>
         <p><b>user@localhost~:$</b> $page = intermediate/<?php echo $page ?>.php</p>
-        <p>
-	        <b>user@localhost~:$</b>There are two main modes of vi:<br/>
-            
-          </p>
+        <p><b>user@localhost~:$</b>There are two main modes of vi:<br/></p>
 	        	Command Mode
 	        	<p>When you first enter vi, you are in command mode, and cannot enter text until you change modes. You must be in command mode to enter any command you wish to use.</p><br/>
 
