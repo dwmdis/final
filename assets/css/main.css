@@ -318,3 +318,10 @@ dd {
 dt, dd {
 	padding: 1px;
 }
+
+.resourcelink a {
+    color: white;
+    font-family: "Courier New", Monospace;
+    text-decoration: none;
+    font-weight: bold;
+}

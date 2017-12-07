@@ -14,19 +14,19 @@
         <p>
 	        <b>user@localhost~:$</b> Here are some helpful sites to check out.
 	        <dl>
-	        	<dt><a href="https://vimawesome.com/">vimawesome</a></dt>
+	        	<dt><a href="https://vimawesome.com/" class="resourcelink">vimawesome</a></dt>
 	        	<dd>A large library of plugins to use.</dd>
 
-	        	<dt><a href="https://www.catswhocode.com/blog/130-essential-vim-commands">catswhocode</a></dt>
+	        	<dt><a href="https://www.catswhocode.com/blog/130-essential-vim-commands" class="resourcelink">catswhocode</a></dt>
 	        	<dd>This is a list of 100+ vi commands if you want to learn more.</dd>
 
-				<dt><a href="vim.org">vim</a></dt>
+				<dt><a href="vim.org" class="resourcelink">vim</a></dt>
 	        	<dd>The main successor to vi.</dd>
 
-	        	<dt><a href="https://www.ted.com/speakers/bill_joy">Billy Joy Ted Talk</a></dt>
+	        	<dt><a href="https://www.ted.com/speakers/bill_joy" class="resourcelink">Billy Joy Ted Talk</a></dt>
 	        	<dd>Billy Joy, the original developer of vi, has done a Ted Talk. Although this is not about vi, it is interesting insight from the man behind the editor.</dd>
 
-	        	<dt><a href="https://www.linux.com/learn/vim-101-beginners-guide-vim">linux.com's vim 101</a></dt>
+	        	<dt><a href="https://www.linux.com/learn/vim-101-beginners-guide-vim" class="resourcelink">linux.com's vim 101</a></dt>
 	        	<dd>More about what vim is and why to use it.</dd>
 	        </dl>
 
