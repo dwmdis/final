@@ -50,6 +50,36 @@
 	        	<dt>l</dt>
 	        	<dd>Move Right</dd>
 
+	        	<dt>$</dt>
+	        	<dd>Move to end of line</dd>
+	        	
+	        	<dt>0</dt>
+	        	<dd>Move to beginning of line</dd>
+
+	        	<dt>e</dt>
+	        	<dd>Move to end of word</dd>       	
+
+	        	<dt>w</dt> 
+	        	<dd>Move cursor to the beginning of next word</dd>
+
+	        	<dt>b</dt> 
+	        	<dd>Move to beginning of word</dd>
+
+	        	<dt>G</dt> 
+	        	<dd>Move to last line in file</dd>
+
+	        	<dt>nG</dt> 
+	        	<dd>Move to nth line in file</dd>
+				
+				<dt>y</dt>	
+	        	<dd>Copy</dd>  
+
+	        	<dt>p</dt>  
+	        	<dd>Paste</dd> 
+
+	        	<dt>u</dt> 
+	        	<dd>undo</dd>
+
 	        	<dt>n</dt>
 	        	<dd>Repeate last search</dd>
 	        	
@@ -67,9 +97,6 @@
 
 	        	<dt>?<i>string</i></dt>
 	        	<dd>Search backwards for <i>string</i></dd>
-
-	        	<dt>:y</dt>
-	        	<dd>Yank the current line</dd>
 
 	        	<dt>mc</dt>
 	        	<dd>Set marker c on this line</dd>
